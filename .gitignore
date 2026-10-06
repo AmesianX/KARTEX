@@ -58,3 +58,7 @@ Thumbs.db
 /bench/
 /Dockerfile.bench
 /Dockerfile.bench.v2
+# 로컬 시크릿 / 런타임 산출물 (한국어화 셋업)
+.pgpw
+kartex.env
+artex.log

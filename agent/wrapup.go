@@ -41,11 +41,11 @@ var wrapupTurnDefaults = map[string]int{
 
 const genericWrapupTurns = 10
 
-const plannerWrapUpDefault = "你本轮规划的步数即将用尽——注意只是【这一轮】结束,系统之后仍会随态势变化再次唤醒你继续规划,并非任务终止,你无需在此收束整个规划。请把本轮已经想清楚的结论落地、别让这一轮白跑,但也【不要为了收尾硬凑意图】(本轮 0 个意图仍是完全正常的结果)：(1) 若已判断出【当前就该派发】的探索方向,用一次 add_intent 批量提交(想好的别憋着不发);(2) 对已被某发现/事实证明达成的目标,调 prove_goal 标记 met(别漏判);(3) 若识别出需要分步的串行利用链,用 TodoWrite 记下,便于下次唤醒接着派。做完直接结束本轮,无需输出总结文本。"
+const plannerWrapUpDefault = "이번 라운드 계획의 스텝이 곧 소진된다 —— 끝나는 것은 [이 한 라운드]뿐이다. 시스템은 이후에도 상황 변화에 따라 너를 다시 깨워 계획을 이어가게 하므로 작업 종료가 아니며, 여기서 전체 계획을 마무리할 필요는 없다. 이번 라운드에 이미 정리된 결론을 반영해 이 라운드를 헛되게 하지 않되, [마무리를 위해 억지로 의도를 채우지는 않는다](이번 라운드 0 개 의도도 완전히 정상적인 결과다): (1) [지금 배정해야 할] 탐색 방향을 이미 판단했다면 add_intent 한 번으로 일괄 제출한다(정리된 것을 묵혀 두지 않는다). (2) 어떤 발견/사실로 달성이 증명된 목표에는 prove_goal 로 met 을 표시한다(빠뜨리지 않는다). (3) 단계로 나눠야 하는 순차 공격 체인을 식별했다면 TodoWrite 에 적어 다음 깨어남에서 이어 배정하기 쉽게 한다. 끝나면 그대로 이번 라운드를 종료하고 요약 텍스트는 출력하지 않는다."
 
-const mainAgentWrapUpDefault = "你的步数即将用尽,本次交互就要结束。不要再发起新的探索/操作。请**单独用一句话纯文本**向用户总结当前进展、关键结论,以及建议的下一步。"
+const mainAgentWrapUpDefault = "네 스텝이 곧 소진되어 이번 상호작용이 끝난다. 새 탐색/조작을 시작하지 않는다. **한 문장 순수 텍스트만으로** 현재 진행 상황, 핵심 결론, 권장하는 다음 단계를 사용자에게 요약한다."
 
-const genericWrapUpDefault = "你即将因预算耗尽被终止。请先把已完成但未落库的结果写回,再**单独用一句话纯文本**总结你做了什么、得到哪些关键结论(这句会作为本次运行的结果展示)。"
+const genericWrapUpDefault = "예산 소진으로 곧 종료된다. 먼저 완료했지만 저장하지 않은 결과를 기록하고, 이어서 **한 문장 순수 텍스트만으로** 무엇을 했고 어떤 핵심 결론을 얻었는지 요약한다(이 문장이 이번 실행의 결과로 표시된다)."
 
 // WrapupDefault returns the built-in default wrap-up prompt for an agent key —
 // used by the admin UI as the "restore default" value and empty-field placeholder.
@@ -117,9 +117,9 @@ var taskTimeoutWrapupDefaults = map[string]string{
 	"planner": plannerTaskTimeoutDefault,
 }
 
-const workerTaskTimeoutDefault = "**整个任务已到达超时上限，即将结束**（不是你这次 run 的预算，是整场探索到点了）。这是最后机会：(1) 把你已识别但还没写回的内容【全部】落库——新资产 insert_assets、探索结论/事实 record_fact、确认漏洞 report_finding；(2) 不要再启动任何新命令/探测；(3) **最后单独用一句话纯文本**总结你在本意图上的关键结论。"
+const workerTaskTimeoutDefault = "**작업 전체가 타임아웃 상한에 도달해 곧 종료된다**(이번 run 의 예산이 아니라 탐색 전체가 끝난다). 마지막 기회다: (1) 이미 식별했지만 아직 기록하지 않은 내용을 [전부] 저장한다 —— 새 자산은 insert_assets, 탐색 결론/사실은 record_fact, 확인된 취약점은 report_finding. (2) 새 명령/탐지는 더 시작하지 않는다. (3) **마지막에 한 문장 순수 텍스트만으로** 이 의도에서 얻은 핵심 결론을 요약한다."
 
-const plannerTaskTimeoutDefault = "**整个任务已到达超时上限，即将结束**（不是本轮，是整个任务终止）。请基于当前【全部】事实与发现，做最后一次目标判定：对已被证据证明达成的目标调 prove_goal 标记 met（别漏判）。**不要再生成任何新意图**（此时派意图也不会再被执行）。判定完即收束，无需输出总结文本。"
+const plannerTaskTimeoutDefault = "**작업 전체가 타임아웃 상한에 도달해 곧 종료된다**(이번 라운드가 아니라 작업 전체가 끝난다). 현재의 [모든] 사실과 발견을 근거로 마지막 목표 판정을 한다: 증거로 달성이 증명된 목표에 prove_goal 을 호출해 met 으로 표시한다(빠뜨리지 않는다). **새 의도는 더 생성하지 않는다**(지금 의도를 배정해도 실행되지 않는다). 판정이 끝나면 그대로 마치고 요약 텍스트는 출력하지 않는다."
 
 // TaskTimeoutWrapupDefault 返回某 agent 的任务超时内置默认收尾词（供后台占位/恢复默认）。
 func TaskTimeoutWrapupDefault(agentKey string) string {

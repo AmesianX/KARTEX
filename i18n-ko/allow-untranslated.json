@@ -1,0 +1,18 @@
+{
+  "_comment": "의도적으로 중국어로 남긴 프론트엔드 문자열. 게이트는 이 목록에 없는 중국어가 나오면 실패한다. 업스트림을 당긴 뒤 새 항목이 생기면 번역하거나, 아래처럼 이유를 적고 여기 추가한다.",
+
+  "_why_icp": "ICP 备案号는 중국 웹사이트 등록번호다. 그 입력란의 예시 값이므로 형식을 보여주려면 중국어여야 한다. 한국 기업에는 없는 개념이지만 업스트림 기능이라 입력란 자체는 남아 있다.",
+  "예: 京ICP备12345678号-1": "icp-example",
+  "example.com\\n203.0.113.10\\n198.51.100.0/24\\n京ICP备12345678号-1\\n기업명 키워드": "icp-example",
+
+  "_why_mock": "lib/api.ts 의 데모 리포트. http() 가 MOCK 일 때 fetch 전에 반환하므로 NEXT_PUBLIC_MOCK=1 에서만 쓰인다. 실배포에서는 한 줄도 실행되지 않는다.",
+  "# ARTEX 渗透测试报告 — Acme Corp\n\n## 概览\n- 范围：acme.com（含 www / admin / api / shop / vpn 子域）\n- 已确认发现：6 项（高危 3 · 中危 3 · 低危 2）\n- 引擎模式：exploring\n\n## 关键发现\n1. **[高] 后台默认口令** admin.acme.com admin/admin123 → 可完全接管后台。\n2. **[高] SQL 注入** www.acme.com/search?q= → 可读取 acme_prod 库。\n3. **[高] IDOR** api.acme.com/v1/orders?id= → 可越权读取他人订单（含手机号/地址）。\n4. **[中] 反射型 XSS**、**暴露 .git 源码**、**登录无速率限制**。\n\n## 建议\n- 后台强制改密 + 启用 MFA、封禁默认口令。\n- search 接口参数化查询、输出编码。\n- API 增加对象级授权校验（IDOR）、更换强 JWT 密钥。\n\n> （demo）本报告由 mock 数据生成，仅用于界面演示。": "mock-demo",
+
+  "_why_comment": "TS 제네릭(`useState<Foo>`)을 JSX 텍스트로 오인해 잡힌 코드 주석 조각이다. 화면에 나오지 않는다. i18nko.py 의 CODEISH 가이드대로 자동 치환에서 제외된 것들.",
+  "\"、公司=\"c:": "ts-generic-comment",
+  "\"。in_scope=false 的是仅用于连线的灰色上下文节点。\nexport interface CoverageGraphNode": "ts-generic-comment",
+  "(资产)、c:": "ts-generic-comment",
+  "(库里没有资产行的根域名)、__none__(未关联资产)。\nexport interface FindingAssetNode": "ts-generic-comment",
+  "0=改用这个固定毫秒间隔\nexport interface LLMRetryRule": "ts-generic-comment",
+  "当下": "comment-in-utils-ts"
+}
