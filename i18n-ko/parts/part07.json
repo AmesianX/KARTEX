@@ -1,0 +1,5 @@
+{
+ "默认${activeDefault ? ": "기본${activeDefault ? ",
+ "上传失败: ${r.status} ${await r.text()}": "업로드 실패: ${r.status} ${await r.text()}",
+ "${failed.length} 个任务无法归档：${failed\n          .slice(0, 3)\n          .map((item) => ": "작업 ${failed.length}개를 아카이브할 수 없습니다: ${failed\n          .slice(0, 3)\n          .map((item) => "
+}

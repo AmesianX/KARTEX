@@ -1,0 +1,5547 @@
+[
+ {
+  "zh": "取消",
+  "n": 14,
+  "files": [
+   "web/src/app/(main)/_components/sidebar/change-password-dialog.tsx",
+   "web/src/app/(main)/function/assets/page.tsx",
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "条",
+  "n": 12,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx",
+   "web/src/app/(main)/function/findings/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/findings-tab.tsx"
+  ]
+ },
+ {
+  "zh": "保存",
+  "n": 8,
+  "files": [
+   "web/src/app/(main)/system/mcp/page.tsx",
+   "web/src/app/(main)/system/settings/page.tsx",
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "共",
+  "n": 6,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx",
+   "web/src/app/(main)/function/assets/page.tsx",
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "刷新",
+  "n": 6,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx",
+   "web/src/app/(main)/function/sync/page.tsx",
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "已选",
+  "n": 6,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx",
+   "web/src/app/(main)/function/sync/page.tsx",
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "/ 页",
+  "n": 6,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx",
+   "web/src/app/(main)/function/commands/page.tsx",
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "第",
+  "n": 5,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/retests-tab.tsx",
+   "web/src/components/link-traffic-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "添加",
+  "n": 5,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx",
+   "web/src/app/(main)/system/mcp/page.tsx"
+  ]
+ },
+ {
+  "zh": "自定义",
+  "n": 5,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx",
+   "web/src/app/(main)/system/agents/page.tsx",
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "个",
+  "n": 4,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx",
+   "web/src/app/(main)/system/agents/page.tsx"
+  ]
+ },
+ {
+  "zh": "实时",
+  "n": 4,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "重试",
+  "n": 4,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/retests-tab.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx",
+   "web/src/components/finding-retest-panel.tsx"
+  ]
+ },
+ {
+  "zh": "上一页",
+  "n": 4,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx",
+   "web/src/app/(main)/system/notify/_components/delivery-list.tsx",
+   "web/src/components/link-traffic-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "下一页",
+  "n": 4,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx",
+   "web/src/app/(main)/system/notify/_components/delivery-list.tsx",
+   "web/src/components/link-traffic-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "· 只读",
+  "n": 4,
+  "files": [
+   "web/src/app/(main)/function/findings/detail/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/findings-tab.tsx"
+  ]
+ },
+ {
+  "zh": "来源 #",
+  "n": 4,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/findings-tab.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "页",
+  "n": 3,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/retests-tab.tsx",
+   "web/src/components/traffic-picker-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "次",
+  "n": 3,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx",
+   "web/src/app/(main)/system/skills/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除",
+  "n": 3,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx",
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "全部",
+  "n": 3,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "失败",
+  "n": 3,
+  "files": [
+   "web/src/app/(main)/function/commands/page.tsx"
+  ]
+ },
+ {
+  "zh": "条）",
+  "n": 3,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "关闭",
+  "n": 3,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/page.tsx",
+   "web/src/app/(main)/function/tasks/page.tsx",
+   "web/src/components/task-template-controls.tsx"
+  ]
+ },
+ {
+  "zh": "个工具",
+  "n": 3,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx",
+   "web/src/app/(main)/system/intercept/page.tsx",
+   "web/src/app/(main)/system/mcp/page.tsx"
+  ]
+ },
+ {
+  "zh": "来源任务 #",
+  "n": 3,
+  "files": [
+   "web/src/app/(main)/function/findings/detail/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx",
+   "web/src/components/exploration-graph.tsx"
+  ]
+ },
+ {
+  "zh": "入",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx",
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "默认",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx",
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "完成",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx",
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "节点",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "成功",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/commands/page.tsx"
+  ]
+ },
+ {
+  "zh": "类型",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "来源",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "输入",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "创建",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/workspace/page.tsx",
+   "web/src/app/(main)/system/agents/page.tsx"
+  ]
+ },
+ {
+  "zh": "内置",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/system/agents/page.tsx",
+   "web/src/app/(main)/system/intercept/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "最近",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/system/skills/page.tsx",
+   "web/src/components/side-question-workspace.tsx"
+  ]
+ },
+ {
+  "zh": "启用",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "轮）",
+  "n": 2,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "允许",
+  "n": 2,
+  "files": [
+   "web/src/components/approval-records.tsx",
+   "web/src/components/transcript.tsx"
+  ]
+ },
+ {
+  "zh": "拒绝",
+  "n": 2,
+  "files": [
+   "web/src/components/approval-records.tsx",
+   "web/src/components/transcript.tsx"
+  ]
+ },
+ {
+  "zh": "另有",
+  "n": 2,
+  "files": [
+   "web/src/components/exploration-graph.tsx",
+   "web/src/components/scope-text-editor.tsx"
+  ]
+ },
+ {
+  "zh": "正文",
+  "n": 2,
+  "files": [
+   "web/src/components/traffic-evidence-viewer.tsx"
+  ]
+ },
+ {
+  "zh": "」对话",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "个任务",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "项资产",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/assets-tab.tsx"
+  ]
+ },
+ {
+  "zh": "复测中",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx",
+   "web/src/components/finding-retest-panel.tsx"
+  ]
+ },
+ {
+  "zh": "加载…",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "已停用",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/system/agents/page.tsx",
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "优先级",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "修改密码",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/_components/sidebar/account-switcher.tsx",
+   "web/src/app/(main)/_components/sidebar/nav-user.tsx"
+  ]
+ },
+ {
+  "zh": "退出登录",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/_components/sidebar/account-switcher.tsx",
+   "web/src/app/(main)/_components/sidebar/nav-user.tsx"
+  ]
+ },
+ {
+  "zh": "开始和「",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "流量证据",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/findings-tab.tsx"
+  ]
+ },
+ {
+  "zh": "加载中…",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx",
+   "web/src/app/(main)/function/tasks/detail/_tabs/report-tab.tsx"
+  ]
+ },
+ {
+  "zh": "· 输出",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "永久删除",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "清除筛选",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx",
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "新建规则",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/system/intercept/assets/page.tsx",
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "恢复默认",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx",
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "旁路提问",
+  "n": 2,
+  "files": [
+   "web/src/components/side-question-workspace.tsx"
+  ]
+ },
+ {
+  "zh": "将永久删除",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx",
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "加载报文…",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "· 缓存写入",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "新建第一条规则",
+  "n": 2,
+  "files": [
+   "web/src/app/(main)/system/intercept/assets/page.tsx",
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "。请点击刷新重试。",
+  "n": 2,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "轮",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "新",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "在",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "字",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "更换",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "多选",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "探索",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "暂停",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "严重",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "高危",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "中危",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "低危",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "发现",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "任务",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "还有",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "条…",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "编辑",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "追加",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "统计",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/commands/page.tsx"
+  ]
+ },
+ {
+  "zh": "复测",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx"
+  ]
+ },
+ {
+  "zh": "深入",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx"
+  ]
+ },
+ {
+  "zh": "证据",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx"
+  ]
+ },
+ {
+  "zh": "导出",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "原文",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "…共",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "清除",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "未测",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "详情",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/findings-tab.tsx"
+  ]
+ },
+ {
+  "zh": "已测",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "心跳",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "目标",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "（共",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "重跑",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "条。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "归档",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "漏洞",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "操作",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "还原",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "…等",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "上传",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/workspace/page.tsx"
+  ]
+ },
+ {
+  "zh": "下载",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/workspace/page.tsx"
+  ]
+ },
+ {
+  "zh": "工具",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/agents/page.tsx"
+  ]
+ },
+ {
+  "zh": "激活",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "冷却",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "新建",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "代理",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "思考",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "清空",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/logs/page.tsx"
+  ]
+ },
+ {
+  "zh": "警告",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/logs/page.tsx"
+  ]
+ },
+ {
+  "zh": "错误",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/logs/page.tsx"
+  ]
+ },
+ {
+  "zh": "重发",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/_components/delivery-list.tsx"
+  ]
+ },
+ {
+  "zh": "开启",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "必填",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "系统",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "调用",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "所有",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "个。",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "行：",
+  "n": 1,
+  "files": [
+   "web/src/components/scope-text-editor.tsx"
+  ]
+ },
+ {
+  "zh": "备用",
+  "n": 1,
+  "files": [
+   "web/src/components/task-llm-profile-chain.tsx"
+  ]
+ },
+ {
+  "zh": "字节",
+  "n": 1,
+  "files": [
+   "web/src/components/traffic-evidence-viewer.tsx"
+  ]
+ },
+ {
+  "zh": "预览",
+  "n": 1,
+  "files": [
+   "web/src/components/traffic-picker-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "当下",
+  "n": 1,
+  "files": [
+   "web/src/lib/utils.ts"
+  ]
+ },
+ {
+  "zh": "新版本",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/_components/update-badge.tsx"
+  ]
+ },
+ {
+  "zh": "运行中",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "重命名",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "活动流",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "已发现",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "已连接",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "不可达",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "无数据",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "条错误",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "范围内",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "范围外",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "已删除",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "重连中",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "个归档",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "个资产",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "条流量",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "激活中",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "已开启",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "行 ·",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/logs/page.tsx"
+  ]
+ },
+ {
+  "zh": "已保存",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/_components/channel-form.tsx"
+  ]
+ },
+ {
+  "zh": "将下载",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "，可带",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "该偏好",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "次调用",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/skills/page.tsx"
+  ]
+ },
+ {
+  "zh": "示例：",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "定时：",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "目标：",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "超时：",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "工具：",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "消息：",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "保存于",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "待审批",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "将所选",
+  "n": 1,
+  "files": [
+   "web/src/components/link-traffic-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "已识别",
+  "n": 1,
+  "files": [
+   "web/src/components/scope-text-editor.tsx"
+  ]
+ },
+ {
+  "zh": "行错误",
+  "n": 1,
+  "files": [
+   "web/src/components/scope-text-editor.tsx"
+  ]
+ },
+ {
+  "zh": "上下文",
+  "n": 1,
+  "files": [
+   "web/src/components/side-question-workspace.tsx"
+  ]
+ },
+ {
+  "zh": "/ 共",
+  "n": 1,
+  "files": [
+   "web/src/components/table-pagination.tsx"
+  ]
+ },
+ {
+  "zh": "已跳过",
+  "n": 1,
+  "files": [
+   "web/src/components/task-llm-profile-chain.tsx"
+  ]
+ },
+ {
+  "zh": "版本 ·",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/_components/main-content.tsx"
+  ]
+ },
+ {
+  "zh": "新建对话",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "加载更多",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "个对话？",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "活跃任务",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "确认发现",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "资产节点",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "流量交互",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "（含缓存",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "）· 出",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "暂无数据",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "查看任务",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "暂无任务",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "资产分布",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "新增企业",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "详细报告",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx"
+  ]
+ },
+ {
+  "zh": "全部资产",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "导出全部",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "任务 #",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "同步选中",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "节点 #",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "未展示的",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "· 已测",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "目标管理",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "操作约束",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "测试范围",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "需要关注",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "最近发现",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "全部重跑",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "暂无报告",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/report-tab.tsx"
+  ]
+ },
+ {
+  "zh": "} 复制",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/report-tab.tsx"
+  ]
+ },
+ {
+  "zh": "选择漏洞",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/retests-tab.tsx"
+  ]
+ },
+ {
+  "zh": "漏洞详情",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/retests-tab.tsx"
+  ]
+ },
+ {
+  "zh": "取消选择",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "并发设置",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "} 保存",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "修改分类",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "修改所选",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除所选",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "个任务？",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "分类管理",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "新建分类",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除分类",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "新建任务",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "最多关联",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "高级设置",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "清空全部",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "清空选择",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "个目标（",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "下载文件",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/workspace/page.tsx"
+  ]
+ },
+ {
+  "zh": "调整范围",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "拦截范围",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "开启后，",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "全部恢复",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "当前只有",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "连续失败",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "暂无配置",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "轮询配置",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "工具列表",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/mcp/page.tsx"
+  ]
+ },
+ {
+  "zh": "状态变更",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/_components/delivery-list.tsx"
+  ]
+ },
+ {
+  "zh": "更新日志",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "没有提供",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "检查更新",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "流量捕获",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "全局代理",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "代理地址",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "实验功能",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "网络搜索",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "来源可选",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "。因此它",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "重新检测",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "发送方式",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "自定义·",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "保存配置",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "预览渲染",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "（当前）",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "定时触发",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "取消编辑",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "重试定位",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-execution-focus.tsx"
+  ]
+ },
+ {
+  "zh": "取消定位",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-execution-focus.tsx"
+  ]
+ },
+ {
+  "zh": "模型判定",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "重试详情",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "待处理（",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "添加一条",
+  "n": 1,
+  "files": [
+   "web/src/components/asset-intercept-rules-editor.tsx"
+  ]
+ },
+ {
+  "zh": "发起复测",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-retest-panel.tsx"
+  ]
+ },
+ {
+  "zh": "关联流量",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-traffic-panel.tsx"
+  ]
+ },
+ {
+  "zh": "绑定流量",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-traffic-panel.tsx"
+  ]
+ },
+ {
+  "zh": "证据 #",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-traffic-panel.tsx"
+  ]
+ },
+ {
+  "zh": "查看报文",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-traffic-panel.tsx"
+  ]
+ },
+ {
+  "zh": "编辑说明",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-traffic-panel.tsx"
+  ]
+ },
+ {
+  "zh": "解除绑定",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-traffic-panel.tsx"
+  ]
+ },
+ {
+  "zh": "保存说明",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-traffic-panel.tsx"
+  ]
+ },
+ {
+  "zh": "搜索中…",
+  "n": 1,
+  "files": [
+   "web/src/components/mention-textarea.tsx"
+  ]
+ },
+ {
+  "zh": "新建模板",
+  "n": 1,
+  "files": [
+   "web/src/components/task-template-controls.tsx"
+  ]
+ },
+ {
+  "zh": "删除模板",
+  "n": 1,
+  "files": [
+   "web/src/components/task-template-controls.tsx"
+  ]
+ },
+ {
+  "zh": "管理模板",
+  "n": 1,
+  "files": [
+   "web/src/components/task-template-controls.tsx"
+  ]
+ },
+ {
+  "zh": "下载完整",
+  "n": 1,
+  "files": [
+   "web/src/components/traffic-evidence-viewer.tsx"
+  ]
+ },
+ {
+  "zh": "删除对话「",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除选中的",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "流量状态码",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "待审批 (",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "个工具 ·",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/commands/page.tsx"
+  ]
+ },
+ {
+  "zh": "· 类型：",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx"
+  ]
+ },
+ {
+  "zh": "导出勾选的",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除任务「",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "数据源状态",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "创建数据源",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "保存并启用",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "/ 范围内",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "进行中意图",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "当前资产：",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "加载失败：",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "的归档包及",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除分类「",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除选中（",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除该目标",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "关联到漏洞",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "新建文件夹",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/workspace/page.tsx"
+  ]
+ },
+ {
+  "zh": "启用此规则",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "间隔 ms",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "轮询优先级",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "启用该渠道",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "版本与更新",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "该工具依赖",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "走记录代理",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "任务创建：",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "执行结果：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "最终动作：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "补充说明：",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-retest-panel.tsx"
+  ]
+ },
+ {
+  "zh": "页 · 共",
+  "n": 1,
+  "files": [
+   "web/src/components/link-traffic-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "搜索失败：",
+  "n": 1,
+  "files": [
+   "web/src/components/mention-textarea.tsx"
+  ]
+ },
+ {
+  "zh": "组问答原文",
+  "n": 1,
+  "files": [
+   "web/src/components/side-question-workspace.tsx"
+  ]
+ },
+ {
+  "zh": "的独立问答",
+  "n": 1,
+  "files": [
+   "web/src/components/side-question-workspace.tsx"
+  ]
+ },
+ {
+  "zh": "删除模板「",
+  "n": 1,
+  "files": [
+   "web/src/components/task-template-controls.tsx"
+  ]
+ },
+ {
+  "zh": "另存为模板",
+  "n": 1,
+  "files": [
+   "web/src/components/task-template-controls.tsx"
+  ]
+ },
+ {
+  "zh": "使用模板「",
+  "n": 1,
+  "files": [
+   "web/src/components/task-template-controls.tsx"
+  ]
+ },
+ {
+  "zh": "覆盖并使用",
+  "n": 1,
+  "files": [
+   "web/src/components/task-template-controls.tsx"
+  ]
+ },
+ {
+  "zh": "条 · 共",
+  "n": 1,
+  "files": [
+   "web/src/components/traffic-picker-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "《使用须知》",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "用户名固定为",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/_components/sidebar/change-password-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "无待审批拦截",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除已选 (",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除企业 ·",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "返回发现列表",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/detail/page.tsx"
+  ]
+ },
+ {
+  "zh": "暂无任务记录",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除任务对话",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "来源节点 #",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/assets-tab.tsx"
+  ]
+ },
+ {
+  "zh": "新增测试资产",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/assets-tab.tsx"
+  ]
+ },
+ {
+  "zh": "涉及资产 ·",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "展示更多（+",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "已测（高亮）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "条，可重跑）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "· 只读历史",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "↑ 更早历史",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "· 缓存读取",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "加载活动流…",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "返回任务列表",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/page.tsx"
+  ]
+ },
+ {
+  "zh": "归档任务 #",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/page.tsx"
+  ]
+ },
+ {
+  "zh": "个任务归档？",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "将永久删除约",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "个任务的分类",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "确认删除所选",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "按数据包数量",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "恢复默认模板",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "全部恢复默认",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "保存全局设置",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "发送测试消息",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "操作约束注入",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "个未命中调用",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/skills/page.tsx"
+  ]
+ },
+ {
+  "zh": "关联 MCP",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/skills/page.tsx"
+  ]
+ },
+ {
+  "zh": "URL（可含",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "保存为新版本",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "加载到编辑器",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "版本对比：v",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "查看命令内容",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "压缩的节点（",
+  "n": 1,
+  "files": [
+   "web/src/components/exploration-graph.tsx"
+  ]
+ },
+ {
+  "zh": "复测漏洞 #",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-retest-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "上下文更新于",
+  "n": 1,
+  "files": [
+   "web/src/components/side-question-workspace.tsx"
+  ]
+ },
+ {
+  "zh": "流量证据 #",
+  "n": 1,
+  "files": [
+   "web/src/components/traffic-evidence-viewer.tsx"
+  ]
+ },
+ {
+  "zh": "加载更多正文",
+  "n": 1,
+  "files": [
+   "web/src/components/traffic-evidence-viewer.tsx"
+  ]
+ },
+ {
+  "zh": "流量 ID：",
+  "n": 1,
+  "files": [
+   "web/src/components/traffic-evidence-viewer.tsx"
+  ]
+ },
+ {
+  "zh": "实时流式中…",
+  "n": 1,
+  "files": [
+   "web/src/components/transcript.tsx"
+  ]
+ },
+ {
+  "zh": "我已阅读并同意",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "将在原任务 #",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "当前任务共关联",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/assets-tab.tsx"
+  ]
+ },
+ {
+  "zh": "任务描述与目标",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "资产测试覆盖度",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "被拦/出错意图",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "加载更早历史…",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "资产覆盖度功能",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "将永久删除全部",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "读取重试策略…",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "sse（旧版）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/mcp/page.tsx"
+  ]
+ },
+ {
+  "zh": "的发布包（缺少",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "回滚到上一版本",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "这是网络搜索的",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "该来源直接复用",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "新建自定义工具",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "Body（可含",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "与当前版本对比",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "目标达成时触发",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "任务超时时触发",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "工具调用时触发",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "都会触发。已选",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "任务创建时触发",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "详情加载失败：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "结果记录时间：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "记录加载失败：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "（继承，只读）",
+  "n": 1,
+  "files": [
+   "web/src/components/exploration-graph.tsx"
+  ]
+ },
+ {
+  "zh": "最近 Todo",
+  "n": 1,
+  "files": [
+   "web/src/components/todo-popover.tsx"
+  ]
+ },
+ {
+  "zh": "(资产)、c:",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "Token 用量",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "编辑资产范围 ·",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "追加资产范围 ·",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "暂无工具执行记录",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/commands/page.tsx"
+  ]
+ },
+ {
+  "zh": "没有匹配的发现。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx"
+  ]
+ },
+ {
+  "zh": "新建/更新企业：",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除原因（必填）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "没有匹配的任务。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "确认删除任务 #",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "分类删除后，其中",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "新建 Agent",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/agents/page.tsx"
+  ]
+ },
+ {
+  "zh": "http（远程）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/mcp/page.tsx"
+  ]
+ },
+ {
+  "zh": "可分别控制注入到",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "出口代理（可选）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "新建 Skill",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/skills/page.tsx"
+  ]
+ },
+ {
+  "zh": "命令模板（占位符",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "工具调用 ID：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "待审批加载失败：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "\"、公司=\"c:",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "正在检查登录状态…",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "加载任务漏洞失败：",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/retests-tab.tsx"
+  ]
+ },
+ {
+  "zh": "删除 Agent「",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/agents/page.tsx"
+  ]
+ },
+ {
+  "zh": "留空 = 用默认；",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "stdio（本地）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/mcp/page.tsx"
+  ]
+ },
+ {
+  "zh": "），无法自动更新。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "当前已是最新版本。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "认证。留空=直连。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "noa 上下文压缩",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "里单独选择是否启用",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "会话输入框发送键位",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "加载复测记录失败：",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-retest-panel.tsx"
+  ]
+ },
+ {
+  "zh": "。请重新输入重试。",
+  "n": 1,
+  "files": [
+   "web/src/components/mention-textarea.tsx"
+  ]
+ },
+ {
+  "zh": "加载更早的旁路问答",
+  "n": 1,
+  "files": [
+   "web/src/components/side-question-workspace.tsx"
+  ]
+ },
+ {
+  "zh": "第三条 · 禁止行为",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "第四条 · 知识产权",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "导出当前筛选结果（共",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "当前分类暂无测试资产",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/assets-tab.tsx"
+  ]
+ },
+ {
+  "zh": "（Windows 为",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "所有 Agent 的",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "开启后，把每个任务的",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "，如 nmap -p",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "未找到 Agent：",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "当此 Agent 因",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "第五条 · 数据与隐私",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "我已阅读并同意全部条款",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "暂无 LLM 调用记录",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "（最终可核验的目标，共",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "删除 Worker #",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "与其它来源不同，搜索由",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "已由后端用示例值替换。",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "(企业)、\n// r:",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "第二条 · 授权使用范围",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "LLM Token 消耗",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "CSV 表格（.csv）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "」的全部 LLM 对话？",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "条；改动下一轮规划生效）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "LLM Token 用量",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "任务级资产拦截 / 允许",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "无法连接 GitHub：",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "Agent 自动绑定流量",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "收尾轮数（0=用内置默认",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "个成员节点未随当前图加载",
+  "n": 1,
+  "files": [
+   "web/src/components/exploration-graph.tsx"
+  ]
+ },
+ {
+  "zh": "。绑定时会保存完整正文。",
+  "n": 1,
+  "files": [
+   "web/src/components/traffic-evidence-viewer.tsx"
+  ]
+ },
+ {
+  "zh": "第一条 · 定义与开源许可",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "第六条 · 合规与法律责任",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "同时删除该企业下的所有资产",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "将永久删除 host 包含",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "LLM 轮询 · 故障转移",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "注入执行者（worker）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "记录代理，独立于流量捕获。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "，正在运行的任务不受影响。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "参数摘要 SHA-256：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "条资产记录，此操作不可撤销。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "按项目建立企业并写入资产范围",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "}\n          保存",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "可在上方配置全局代理后重试。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "注入规划者（planner）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "参数 JSON Schema",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "发现 finding 时触发",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "条流量保存为已有漏洞的证据。",
+  "n": 1,
+  "files": [
+   "web/src/components/link-traffic-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "第七条 · 免责声明与责任限制",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "第八条 · 条款变更与最终解释",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "（覆盖度分母 + 授权边界，共",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "直接下发首个意图（描述+目标）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "Headers（JSON，可含",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "查看完整模型审查输入 JSON",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "审查配置指纹 SHA-256：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "模型审查输入 SHA-256：",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "渗透测试报告（Markdown）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/report-tab.tsx"
+  ]
+ },
+ {
+  "zh": "条关联数据快照。此操作不可恢复。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "}\n            移动",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "。内层用尽才轮到外层，所以次数是",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "会造成按钮嵌套（非法 HTML）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "输出上限 · max tokens",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "跳过 TLS 证书校验（自签证书）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/mcp/page.tsx"
+  ]
+ },
+ {
+  "zh": "· 填入新值即覆盖，清空则删除该项",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/_components/channel-form.tsx"
+  ]
+ },
+ {
+  "zh": "还没有任何 Skill 调用记录。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/skills/page.tsx"
+  ]
+ },
+ {
+  "zh": "规划者会收到删除通知并据此重新规划。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "}\n            确认归档",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "}\n            永久删除",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "一键更新依赖守护脚本重启程序。请通过",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "自定义脚本 · Python 解释器",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "\"、\n// 无资产行的根域名=\"r:",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "条；新增/修改会通知规划者并复活任务）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "예: 京ICP备12345678号-1",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "暂无任务，点击右上角「新建任务」开始。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "近 30 天每日消耗(输入 + 输出)",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "漏洞处置状态变更时也推送（仅实时模式）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "工作并发 · Work Agent 数",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "deferred（大量不常用工具才开）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "没有匹配记录，请更换名称、地址或 ID",
+  "n": 1,
+  "files": [
+   "web/src/components/mention-textarea.tsx"
+  ]
+ },
+ {
+  "zh": "关闭（默认）时不记录任何流量：Agent",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "（需填写 Brave API Key）、",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "仅显示前 20 条，点「全部重跑」处理剩余",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "（仅本任务生效，不进全局；先拦截后允许，共",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "}\n              创建分类「",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "}\n              创建深入意图",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "数据源就绪后即可选择项目 / 任务进行同步。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "全局资产、关联流量和历史黑板锚点会继续保留。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/assets-tab.tsx"
+  ]
+ },
+ {
+  "zh": "优先级越大越先匹配；首条命中规则生效，后续跳过",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "还没有模型配置，点击右上角「新建」创建第一个。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "Markdown 汇总报告（单个 .md 文件）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "·\n                  缓存读取",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "个任务会自动移入“未分类”，任务数据不会被删除。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "}\n                  上传文件",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "未启用任何工具 — 拦截规则与模型兜底均不会生效",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "一次模型调用的失败会依次经过五层重试，由内到外：",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "收尾轮数（收尾阶段自身最多跑几轮；0=用内置默认",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "代理相关内容。切换后会即时重建 Agent 生效。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "（无摘要），需要正文时由 WebFetch 抓取。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "（框定 planner/worker 的探索边界，共",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "的所有流量记录（含请求/响应原文），此操作不可撤销。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "按优先级（数字越大越先）逐条匹配，首条命中的规则生效",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "只有启用拦截的工具才会进入规则匹配；其余工具直接放行",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "，不随账号同步，换浏览器或清理站点数据后需重新设置。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "触发器让这个自定义 Agent 自动运行：每次触发都",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "选择要监听的工具（至少一个）；任务执行中这些工具每次",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": ")}\n                      暂停",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": ")}\n                      继续",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "）的所有流量记录（含请求/响应原文），此操作不可撤销。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "参数（名称 / 类型 / 必填只读；描述与默认值可改）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "无链路可展示（该漏洞未关联探索节点，或所属任务已删除）。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/detail/lineage.tsx"
+  ]
+ },
+ {
+  "zh": "的命令，才由模型做语义判断（放行 / 转人工 / 拦截）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "渠道类型不可修改——改了类型等于换一套凭据，请新建渠道。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "每行一个关键词，大小写不敏感的子串匹配。留空=全部类型。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "重建容器后会退回镜像自带的版本。需要连镜像一起升级请执行",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "工具执行前先按拦截规则匹配；未命中的命令可交由模型兜底判定",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "的会话记录片段。模型实际使用的内容以“模型审查输入”为准。",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "Markdown 分文件（一漏洞一 .md,打包 .zip）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "。规划者会收到「该意图由用户删除 + 原因」并据此重新规划。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "填写头名后，每次请求都会带上这个 HTTP 头，头值自动填为",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "a.kind !== \"usage\").length} 条事件",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": ")}\n                          新建",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "将一并删除它的提示词、变量、可见性与工具绑定。此操作不可撤销。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/agents/page.tsx"
+  ]
+ },
+ {
+  "zh": "留空用渠道默认值；0 表示不限流。超限不会丢消息，只会推迟发送。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "99 ? \"99+\" : pending} 条新播报 · 回到最新",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "（已停止执行，规划者已收到通知；意图与产出保留，可在下方查看历史）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "，校验 SHA256 并冒烟测试后才会替换，失败自动保留当前版本。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "。请先在「系统配置」开启流量捕获，才能绑定给 Agent 并启用。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/tools/page.tsx"
+  ]
+ },
+ {
+  "zh": "中创建优先级 10 的 Worker 意图，基于当前漏洞开展二次验证：",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "数据源已创建但未配置，请填写 MCP 地址与 API Key 后启用。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "应用模板时预填这些任务级规则（拦截/允许，仅对新任务生效，不进全局）。",
+  "n": 1,
+  "files": [
+   "web/src/components/task-template-controls.tsx"
+  ]
+ },
+ {
+  "zh": "。需先输入当前密码验证；修改后已签发的登录 token 仍有效直至过期。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/_components/sidebar/change-password-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "0 ? parsedScope.rules.length : \"\"} 条",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/assets-tab.tsx"
+  ]
+ },
+ {
+  "zh": "力导向布局，可拖拽节点、滚轮缩放；灰色「⋯」是折叠节点，点开可展开更多。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "Agent 点名调用、但技能库里不存在的 skill。按被点名次数排序。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/skills/page.tsx"
+  ]
+ },
+ {
+  "zh": "筛选并多选请求/响应，已选记录会跨页保留。绑定后可设置用途、说明和顺序。",
+  "n": 1,
+  "files": [
+   "web/src/components/traffic-picker-dialog.tsx"
+  ]
+ },
+ {
+  "zh": ";\n    case \"done\": // 完成\n      return",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "这些任务的执行记录与探索链路将被永久删除，下方清理选项对所选任务统一生效。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "内置 Agent 的提示词/配置，以及自定义会话 Agent 的创建与管理",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/agents/page.tsx"
+  ]
+ },
+ {
+  "zh": "还没有企业。点击右上角「新增企业」并填写资产范围，系统会自动认领命中的资产。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "stdio（本地起进程）或 http（远程 Streamable HTTP）",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/mcp/page.tsx"
+  ]
+ },
+ {
+  "zh": "）启动 ARTEX；直接运行 artex 本体时，程序退出后不会被自动拉起。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "将永久删除该任务的所有 LLM 调用记录（含请求/响应原文），此操作不可撤销。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": ")}\n                        加载更早的 Worker",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "的下游节点（级联到叶子，避免留下孤立数据）；共享节点、目标和任务根事实会保留。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "清空后会顺带压实存储，把索引占用的磁盘空间还给系统；这期间流量录制会短暂暂停。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "创建一个会话型助手。key 用于内部标识，创建后不可更改；名称与描述用于识别。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/agents/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n    case \"blocked\": // 出错\n      return",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "用当前配置（来源 + 代理 + Key）实际搜索一次「test」，验证是否可用。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "限制同时运行的任务数量。达到上限后，新任务会按创建顺序排队并在空位出现时自动启动。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "个任务。实时只读继承所选任务的持久化黑板、资产范围及相关流量；新任务写入独立黑板。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "该渠道的表单尚未定义（前端缺 CHANNEL_FIELDS 条目），请补全后再试。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "对话页与任务详情的主 Agent 会话输入框共用此设置，选择后立即生效、无需保存。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "编辑后将替换全部现有范围。ICP 精确匹配资产，企业关键词仅作为 Agent 提示。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "」将被永久删除， 同时从发现列表、任务发现 Tab 与探索图中移除，此操作不可撤销。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx"
+  ]
+ },
+ {
+  "zh": "个可用配置，轮询不会生效——至少需要 2 个已填 API Key 且参与轮询的配置。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "以下为本次实际发送给审查模型的输入快照。背景仅用于理解当前动作，裁决依据为审查策略。",
+  "n": 1,
+  "files": [
+   "web/src/components/approval-records.tsx"
+  ]
+ },
+ {
+  "zh": "0=改用这个固定毫秒间隔\nexport interface LLMRetryRule",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "版本 v1.0 · 生效日期 2026-09-18 · 请在登录前完整阅读以下全部条款",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n    case \"deleted\": // 用户假删除\n      return",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "全局资产黑名单：命中的域名 / IP / URL / 网段将被拦截，不对其执行任何操作",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "全 Agent 共享的格式 / 模型 / 限速配置。点击卡片编辑，星标为当前激活配置。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "是否满足上述条件由你自行确认，系统不做拦截；可用下方「测试搜索」按钮实际跑一次来验证。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "已选择 Brave 但尚未配置 Key —— 在保存 Key 之前，搜索工具不会启用。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "删除当前 Agent 的旁路问答，并停止正在生成的旁路回答。主会话和上下文快照会保留。",
+  "n": 1,
+  "files": [
+   "web/src/components/side-question-workspace.tsx"
+  ]
+ },
+ {
+  "zh": "模型兜底审批累计用量,单独计量(worker=judge),不与各模型配置的统计混在一起",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "想做「高危实时、其余汇总」就建两个渠道：一个实时 + 门槛高危，一个汇总 + 不限级别。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "尚在验证中的机制，默认关闭。可能改变 Agent 行为或影响稳定性，请在了解影响后启用。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "已选择 Tavily 但尚未配置 Key —— 在保存 Key 之前，搜索工具不会启用。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "发现漏洞时推送到钉钉 / 飞书 / 企业微信等渠道 · 每个渠道可独立设推送时机与过滤规则",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "：由模型主动压缩长对话历史（norma v0.4.0）。开启后平台接入的四类 Agent（",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "一旦您下载、安装、访问或以任何方式使用本软件，即视为您已阅读、理解并同意接受本声明的全部约束。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "每个任务并发运行的工作 agent 数量（默认 3）。数值越大并发探测越多、消耗也越高。修改后",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "return (\n    /* 固定列宽保证展开内容不撑开表格；窄屏只在表格内部横向滚动。 */",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx"
+  ]
+ },
+ {
+  "zh": "// reply = 模型实际回复(已截断);一个字都不回的配置后端直接判失败\n    post",
+  "n": 1,
+  "files": [
+   "web/src/lib/api.ts"
+  ]
+ },
+ {
+  "zh": "尚未创建 ScopeSentry 数据源。创建后会新增一个占位 MCP（地址/密钥为空、未启用）。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "；默认都开。切换即时生效（下一轮读取），无需重建 Agent。关闭后该 Agent 不再看到约束。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "暂无操作约束。建任务时会自动从描述/目标抽取；也可在此手动增删改，用来框定「允许/禁止做哪些操作」。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "数字越大越先被选中；激活配置恒为第 1 顺位，与本值无关。相同优先级的配置会轮流打头，天然分摊额度。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "当前会话会被归档（可随时切回），主 Agent 将以干净的上下文继续。任务的图谱、资产、目标不受影响。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "Docker 下的更新只替换程序本身，不更新镜像里的 playwright / nmap 等工具链，且",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "——DeepSeek 的 OpenAI 协议端点不支持服务端搜索。切换 LLM 配置后此来源可能失效。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "// 公司资产范围规则的一条（归属唯一真值来源）。\nexport interface ScopeRow",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "：每次搜索会额外消耗一次模型调用（产生 Token\n                  费用），搜索请求",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "因您违反上述法律法规或本声明约定而产生的一切法律责任与后果，均由您本人独立承担，与本软件作者及贡献者无关。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "到点后触发优雅收尾（各 agent 写回 + planner 终局判定），任务进入 timeout 终态。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n    case \"pending\": // 待领取(open intent)\n      return",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "（复用当前 LLM 配置）。总开关关闭时，各\n              Agent 的网络搜索开关不可用。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "直接填写测试范围。域名和 IP 会创建或复用全局资产；CIDR、ICP 和关键词作为 Agent 范围上下文。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/assets-tab.tsx"
+  ]
+ },
+ {
+  "zh": "0 = 改用这个固定毫秒间隔\n\nimport * as React from \"react\";\n\nimport",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n// G6 的类型把自定义字段归在 data 下，但官方 force 示例（及运行时）按顶层读 d.",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "默认关闭。开启后，漏洞入库时触发的报告 Agent 会核对已有 HTTP 请求/响应，关联对应流量后再编写报告。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n    case \"stopped\": // 取消/停止(被 planner 终止)\n      return",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": ";\n    case \"exhausted\": // 步数耗尽(撞 max_turns)\n      return",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "归档会停止任务调度，将图谱、LLM 历史、文件以及独占资产和流量压缩到本地冷存储。归档完成后可从“已归档”中还原。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "免费版额度约 2,000 次/月。前往 https://brave.com/search/api/ 获取 Key。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "// 任务测试范围的一条（覆盖度分母 + 授权边界）。\nexport interface TaskScopeRow",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "独立出口代理，仅用于访问搜索端点（VPN/SOCKS 等）。与记录流量的 MITM 代理无关；网络不通时经此代理访问。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "严禁对任何网站、线上服务、他人或第三方所有的联网系统发起扫描、探测、利用或攻击（无论是否已获得授权、是否为您自有资产）；",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "会把该意图置为「已删除」并记录删除原因，意图节点、执行记录、\n                    已登记的事实和漏洞",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "// FindingsPage 是发现列表的服务端分页响应。\nexport interface FindingsPage",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "暂无任务级规则。「拦截」命中即禁止测试；「允许」为白名单——配置后本任务只允许命中允许规则的资产（未配置则不启用白名单）。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "条流量记录（含请求/响应原文），忽略当前的筛选条件，此操作不可撤销。已绑定到漏洞的流量证据保存在独立的证据库中，不受影响。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/traffic/page.tsx"
+  ]
+ },
+ {
+  "zh": "),\n  // custom tools (自定义工具)\n  createCustomTool: (\n    t: Pick",
+  "n": 1,
+  "files": [
+   "web/src/lib/api.ts"
+  ]
+ },
+ {
+  "zh": "// FindingQuery 是发现列表分页/筛选/排序参数。\nexport interface FindingQuery",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ";\n  // 节点 id → 该节点锚定的资产(播报板展开时顺带展示,含本页节点与其邻居)。\n  assets: Record",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "(库里没有资产行的根域名)、__none__(未关联资产)。\nexport interface FindingAssetNode",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "// 复制当前框内文本的小按钮。复制成功后短暂显示对勾。text 为空/仅占位符时禁用。\nfunction CopyButton(",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "([]); // 任务级资产拦截规则(仅本任务生效,不进全局表)\n  // 方式1 文件上传:建任务前把文件暂存到 drafts/",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "的 Agent 在当前配置不可用（余额不足 / Key 失效 / 限流 /\n            服务异常）时自动切到下一个配置。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\n  // 平铺视图与资产视图右侧是同一张表 + 同一份分页,只是筛选条件不同。\n  const flatListCard = (",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "// 单个 LLM 配置能覆盖的三层（都是「跟着端点走」的重试）。\nexport interface LLMRetryOverride",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n/** 「重试与退避」tab：五层的全局默认值。 */\nexport function RetryPolicyPanel()",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "为该 Agent 绑定固定 LLM 配置（点「保存配置」生效）。优先级：Agent 绑定 &gt; 任务/会话指定 &gt; 全局激活。",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "\"。in_scope=false 的是仅用于连线的灰色上下文节点。\nexport interface CoverageGraphNode",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n// 一条播报涉及的上下游:上游 = 指向本节点的边,下游 = 本节点指出去的边。\nfunction RelatedList(",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "example.com\\n203.0.113.10\\n198.51.100.0/24\\n京ICP备12345678号-1\\n기업명 키워드",
+  "n": 1,
+  "files": [
+   "web/src/components/scope-text-editor.tsx"
+  ]
+ },
+ {
+  "zh": "// 某资产在本任务探索图里关联到的意图/事实/发现（覆盖图节点抽屉用）。\nexport interface CoverageAssetRef",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "// 企业：type=company 的资产节点 + 图标 + 资产计数 + 资产范围规则。\nexport interface Company",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ") : (\n              \"해당 작업\"\n            )}\n            的执行记录与探索链路将被永久删除。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "// 目标管理卡片用的目标(后端已把 payload 拆成 text/vulnclass)。\nexport interface TaskGoal",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "// 单个工具的调用统计（/commands/stats）；errors 为其中失败的次数。\nexport interface ToolStat",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "（在「对话」页可见）。\n        可多选触发条件；系统会把「本次为何触发 + 相关任务/finding/目标」自动附加到你写的基础消息后面。",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "// SkillCall 是一次 Skill() 调用（单个 skill 的最近调用列表）。\nexport interface SkillCall",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "/uploads/),随下条消息一起发。\n  const [attachments, setAttachments] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": "的——把每层都拉满，一次抖动能烧掉几十次请求。\n        全部留空即当前默认值，与没有这页时的行为完全一致。前三层可以在每个模型配置里单独覆盖。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "// 批量改分类的逐任务结果。失败只可能是任务已被删除，分类本身的写入是原子的。\nexport interface BatchCategoryItem",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "// ---- Agent triggers (P3 调度，仅自定义 agent) ----\nexport interface AgentTrigger",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "(new Set());\n  // 测试范围列表 + 新增表单状态。\n  const [scope, setScope] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "被终止时，系统会注入这段「收尾提示词」跑一轮收尾：\n            先把已识别但未落库的内容写回，再输出一句总结（避免烂尾）。留空则使用内置默认。",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "// ---- Asset coverage graph (per task) ----\n// 力导向「资产覆盖图」的一个节点。key 唯一：资产=\"a:",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "，在 Sheet 的滚动锁之外，\n                  不加 modal 时列表能渲染却滚不动。modal 让它自己持有最上层滚动锁。 */}",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "任务图谱、关联记录、独占资产与流量、工作文件和 LLM\n                    历史将压缩到冷存储。归档完成后可在任务列表的“已归档”页还原。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/page.tsx"
+  ]
+ },
+ {
+  "zh": "void;\n  /** true = 配置抽屉里的紧凑版：省掉展开说明，只留「什么错误会走到这层」这一句 */\n  compact?: boolean;\n})",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\n// 任务根是 state=origin 的 fact,播报里读作「起点」。\nfunction viewKind(n: TaskNode): string",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "([]);\n  // 目标管理：目标列表 + 新增表单 + 行内编辑状态。\n  const [goals, setGoals] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": ",\n];\n// 另外两种格式各自定死了字段名，选项对它们无意义，说明文案里直接讲清楚。\nconst MAX_TOKENS_FIELD_HINTS: Record",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "// MissingSkill 是被点名但不存在的 skill —— \"쓰려 했지만 없음\"的缺口。\nexport interface MissingSkill",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ",\n];\n// 输出上限用哪个请求字段名（仅 openai 格式有意义）。NONE ↔ \"\" 走同一套哨兵转换。\nconst MAX_TOKENS_FIELDS:",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "// FindingStats 是发现全表聚合(统计卡 + 漏洞类型下拉),服务端计算,不受分页影响。\nexport interface FindingStats",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ");\n\n// parseKV 解析「每行 KEY=VALUE」的文本域。\nexport function parseKV(text: string): Record",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/_components/channel-fields.ts"
+  ]
+ },
+ {
+  "zh": "类型工具用它跑 Python。开机会自动检测（python3 优先）；此处可手填 venv /\n              特定版本的绝对路径，留空则运行时自动检测。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "距上轮规划结束/任务开始满该时长且期间无触发，自动触发一轮规划（兜底卡死 + 唤醒去监督在跑的\n                    worker）。下限 10 分钟。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "// JudgeUsage: 模型兜底审批(judge 通道)的累计 token 用量 + 近 N 天每日序列。\nexport interface JudgeDayUsage",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "（在任务总览「操作约束」里维护的 allow/deny 条目）拼进对应 Agent\n              的系统提示，用来框定探索边界（如「仅测当前端口」「禁止爆破」）。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "默认关闭：Agent 或任务指定了某个配置就只用它，失败即失败（不会悄悄换成别的模型）。\n                    开启后，指定的配置失败时也会回落到下面的轮询链。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "（流量仍全量落库，再经此代理出网）；关闭捕获时，直接注入\n              Agent 的 bash / WebFetch 出网。与网络搜索代理、LLM 代理相互独立。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "限速 0 = 不限，全 Agent 共享。上下文窗口单位 K（千 token），0 = 默认 200K，上限 1000（即\n            1M）；设太高会导致压缩不触发。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "开启后不会被当作故障转移目标（仍可被 Agent / 任务显式指定使用）。 适合「只给某个 Agent\n                  专用、不希望别人失败时烧掉」的昂贵配置。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n// formatBacklog 把积压毫秒数渲染成人看得懂的量级。\nexport function formatBacklog(ms: number): string",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/_components/stat-tile.tsx"
+  ]
+ },
+ {
+  "zh": "void;\n}\n\n// 仅在打开时挂载，关闭后清空说明；列表与详情共用提交锁及错误处理，启动后留在当前页。\nexport function FindingRetestDialog(",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-retest-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "您应自行遵守所在国家或地区关于网络安全、数据安全与个人信息保护、计算机犯罪等方面的全部法律法规（在中国大陆包括但不限于《网络安全法》《数据安全法》《个人信息保护法》及相关司法解释）。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "TCP、未抓包或没有匹配流量时仍可正常上报。此开关不影响流量捕获、人工绑定及已保存证据的查看。 对下一轮 Agent\n              生效；关闭后会立即拒绝新的自动绑定。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "支持全等与模糊匹配的域名 / IP / URL，以及 CIDR 网段；默认内置模糊拦截政府（.gov / .gov.cn）与教育（.edu /\n          .edu.cn）网站",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "KIND_LABEL[k as FindingAssetKind] ?? k).join(\" / \")}\n          层级（计数仍已计入上层）。用筛选或过滤框收窄可看到完整层级。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/asset-tree.tsx"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n// 节点锚定的资产:类型标签 + 可辨识文本。数据随播报页一起下发(node id → 资产),\n// 展开时直接展示,不额外请求。\nfunction AssetList(",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": ");\n  }\n\n  // 控件按字段类型分派。用 if 链而不是嵌套三元，是因为这里要区分四种控件，\n  // 三层三元读起来已经要停下来数括号了。\n  function control()",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/_components/channel-form.tsx"
+  ]
+ },
+ {
+  "zh": "为该 Agent 开启后（点上方保存生效），可用持久 PTY 会话工具（shell_open/send/read/close/list）驱动 msfconsole/ssh/REPL 等交互程序",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": ")),\n\n  // ---- intercept tool-config (全局工具拦截范围) ----\n  interceptGetToolConfig: async (): Promise",
+  "n": 1,
+  "files": [
+   "web/src/lib/api.ts"
+  ]
+ },
+ {
+  "zh": "(null);\n  // click 处理需要最新的 key→RenderNode 映射（G6 事件回调闭包外读 ref）。\n  const renderMapRef = React.useRef",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "d as G6NodeDatum;\n\n// 已测=实色高亮；范围内未测=灰；范围外/折叠=更淡的灰 + 虚线描边。\nfunction nodeFill(d: G6NodeDatum): string",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "的支持（curl\n              可用，部分工具可能忽略）； 若主要用 socks5，建议开启流量捕获——此路径由 MITM\n              亲自拨号，工具无感知、稳定生效。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "([]);\n  // 触发后处理策略(每 agent);初值来自 agent detail,改动即保存。\n  const [runMode, setRunMode] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\n  // 旧版：按 profile 归桶（来自 activity 的 task.tokens + 会话用量）。\n  const tokenByProfileOld = React.useMemo",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "创建任务时会将所选企业当前已有资产加入“测试资产”，并将域名、IP、CIDR、ICP 和企业关键词提供给 Agent\n                作为范围上下文；不会自动生成意图或强制改变执行目标。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n// ── 同步工作区（项目 / 任务维度）────────────────────────────────────────────────\n\nfunction SyncWorkbench()",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/sync/page.tsx"
+  ]
+ },
+ {
+  "zh": "// ── 资产同步 (ScopeSentry 数据源) ──────────────────────────────────────────────\nexport interface SSProject",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "仅对本任务生效，不写入全局规则。判定顺序：先按「拦截」规则（含全局）匹配，命中即禁止测试；未命中且本任务配置了「允许」规则时，须命中某条允许规则才放行，否则同样不允许测试；未配置任何允许规则则不启用白名单。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "只对这个配置生效，覆盖「重试与退避」里的全局默认。每格留空 = 跟随全局；次数填 -1 = 关掉这层重试；\n          间隔填了就用固定间隔取代指数退避。熔断与意图重跑是进程级的，只能在全局那页调。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "本软件为可自行部署的开源程序，作者不运营任何集中式服务、亦不会收集或上传您的使用数据。您在使用过程中产生、处理或接触的一切数据，均由您自行掌控并负责其合法性与安全性；因数据处理不当引发的任何后果由您自行承担。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "new Set());\n  // 记住用户手动折叠过的节点,免得「默认展开顶层」在每次刷新后又把它们撑开。\n  const [collapsed, setCollapsed] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/asset-tree.tsx"
+  ]
+ },
+ {
+  "zh": ");\n\n// 前端轻校验（与后端一致：仅 exact_ip / cidr 做格式校验，其余交后端）。\nfunction frontValidate(form: RuleForm): string | null",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/assets/page.tsx"
+  ]
+ },
+ {
+  "zh": "到达超时上限、即将结束时注入。\n                与 per-run 语义常相反（如 planner：per-run 说“别停继续规划”，任务超时说“到点停止、做最后判定”）。留空则用内置默认。",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": ": null}\n            复测 Agent\n            将读取原证据和测试约束，在独立会话中执行针对性验证。复测成功完成且确认修复后，漏洞状态自动改为「已修复」，其他结论保留原状态。",
+  "n": 1,
+  "files": [
+   "web/src/components/finding-retest-dialog.tsx"
+  ]
+ },
+ {
+  "zh": "本软件仅供个人学习、代码研究、安全技术原理探讨，以及在您自行搭建的本地隔离环境中进行技术验证之用，适用于学习、学术研究、代码审阅等非攻击性、非破坏性用途。除本条明确许可的情形外，您不得将本软件用于任何其他目的。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\n// goal / intent 的状态语义由全局 status 表提供(StatusBadge);其余类型的状态只在\n// 图和播报里出现,这里补一份。\nconst STATE_META: Record",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "(null);\n  // 正在重跑的意图 id（含 \"__all__\" 表示批量），用于禁用按钮 + 转圈。\n  const [rerunning, setRerunning] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "开启后，所有 Agent 的 HTTP 流量经记录代理全量落库，并向 Agent 注入 traffic_search / traffic_get\n              工具与代理配置（提示词含代理说明）。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "本软件的著作权及相关知识产权归项目作者及贡献者所有，并在 AGPL-3.0\n                协议约定的范围内向您授予相应权利。除该协议明确授予的权利外，本声明未以明示或默示方式授予您任何其他权利。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\n// TreeNode 是节点数组组装出来的树。后端已按「同父下发现多的在前」排好序,\n// 这里只需按数组顺序挂载。\ninterface TreeNode extends FindingAssetNode",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/asset-tree.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\ntype LayerKey = keyof typeof RETRY_LAYERS;\n\n/** 毫秒的人话，只用于在输入框旁边回显，免得数零。 */\nfunction humanMs(ms: number)",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/_components/retry.tsx"
+  ]
+ },
+ {
+  "zh": "控制是否发送 thinking 字段。不发送=不带该字段（兼容 MiniMax 等不支持 的模型）；关闭=发\n                  disabled；开启=发 enabled。与下面的强度互相独立。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\n// 推送投递状态。sending 用 blue 而不是 amber：它不是「有问题」，\n// 而是「已被领取、正在发」，与 pending 的等待语义要能区分开。\nconst delivery: Record",
+  "n": 1,
+  "files": [
+   "web/src/lib/status.ts"
+  ]
+ },
+ {
+  "zh": "n !== null);\n}\n\n// collectKeys 收集一棵(子)树里的全部 key,用于「展开全部匹配项」。\nfunction collectKeys(nodes: TreeNode[], out: Set",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/asset-tree.tsx"
+  ]
+ },
+ {
+  "zh": ");\n\n  // 行内可编辑缓冲:当前展开行的名称/类别/严重等级,展开时用该行数据初始化,收起清空。\n  // 单行展开,故一份缓冲即可。\n  const [edit, setEdit] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "）改用 noa 接管上下文，取代内置压缩，\n              压缩原文会归档到任务工作目录下便于回溯。切换即时生效（对之后启动的运行生效），无需重建 Agent；\n              关闭后立即恢复内置压缩。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/page.tsx"
+  ]
+ },
+ {
+  "zh": "// FindingTaskOption 是发现页「按任务」筛选下拉的一项:有漏洞的任务(描述为空表示任务已删除,\n// 前端回退展示 id)及其漏洞条数。\nexport interface FindingTaskOption",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "// 约束管理卡片用的操作约束(allow=允许 / deny=禁止)。\nexport type ConstraintKind = \"allow\" | \"deny\";\nexport interface TaskConstraint",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "pageCount) setPage(pageCount);\n  }, [page, pageCount]);\n\n  // 按天分组:播报流按日期断行,长任务翻页时还能认出「这是哪天的事」。\n  const groups: Array",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "默认开启：计算并展示测试覆盖度、态势图显示测试进度、自动累积测试范围。关闭后不再计算/展示覆盖度，\n                    态势图仅展示资产不显示进度，agent 也不再获得范围类工具。关闭不影响「关联企业资产范围」。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "= 1000) return (n / 1000).toFixed(1) + \"k\";\n  return String(n);\n}\n\n// JudgeStat 是一块统计数字(标签 + 数值)。\nfunction JudgeStat(",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "本《使用须知与免责声明》（以下简称\"본 고지\"）是您与 ARTEX\n              项目作者及贡献者之间就使用本软件所达成的约定。请您在使用前审慎阅读、充分理解各条款内容，特别是以粗体或色块标注的免责、责任限制及禁止性条款。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "仅 LLM 出站请求走此代理，支持 http/https/socks5，可带账号密码（如\n              socks5://user:pass@host:port，密码含特殊字符需 URL 编码）；留空表示不使用代理（直连）。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "`);\n  },\n  // findingAssetTree 取「按资产」视图的左侧树:只含有发现的资产及其祖先,\n  // 节点带子树聚合计数。不分页——树是导航结构,一次取完。\n  findingAssetTree: (q: Omit",
+  "n": 1,
+  "files": [
+   "web/src/lib/api.ts"
+  ]
+ },
+ {
+  "zh": "作者有权根据法律法规或项目发展需要不时更新本声明，更新后的版本将随项目发布并自公布之日起生效；您继续使用本软件即视为接受修订后的条款。在法律允许的范围内，本声明的最终解释权归项目作者所有。若本声明任一条款被认定为无效，不影响其余条款的效力。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "// hostOf 取一个节点代表的宿主:URL 取 hostname,「host:port」取 host,其余就是\n// 标签本身(根域名 / 子域名 / IP)。\nfunction hostOf(label: string): string",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/asset-tree.tsx"
+  ]
+ },
+ {
+  "zh": "开启后创建即把「描述+目标」作为一条意图下发，worker 免等首轮规划直接开跑，跑完再由 planner\n                    接手判定/补充。CTF 等常一个 work 直接解决的场景推荐开启；关闭则走标准的先规划再执行。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "(\"old\");\n  // selected profile tab: \"all\" = 全部; number = specific profile id\n  const [tokenTab, setTokenTab] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "return next;\n    });\n  }, []);\n\n  // 勾选导出:按 finding_id(独立表 id)记选中项,跨页保留。\n  const [selectedIds, setSelectedIds] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "// 播报板一页:按创建顺序分页的节点 + 这一页涉及的边 + 边另一端的节点(refs,按 id 索引),\n// 这样每条播报都能说清「从哪来、产出了什么」,而不用把整张图拉下来。\nexport interface ExplorationNodePage",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "（chat 会话如\n              conv-12、worker 如 exp3-worker-i87）。用于按 session-id 头做提示缓存 /\n              粘性路由的网关；同一会话多轮稳定、不同会话互不相同。留空则不发送。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "// 资产范围写入的结果。errors 是本次提交里不合法的行；warnings 是与本次提交无关、\n// 但会让归属结果不符合预期的既有数据问题（如 ip 字段存了主机名的资产）。\nexport interface CompanyScopeMutation",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n// 三态图标分开写而非嵌套三元:仓库 Biome 基线禁 noNestedTernary。\nfunction taskControlIcon(pending: boolean, action: \"pause\" | \"resume\" | null)",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "独立的强度档位（OpenAI reasoning_effort / Anthropic output_config.effort）。 有些接口没有 thinking\n                  字段、只靠强度即可激活思考，故可单独设置、不发送思考开关。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "o.value === r.kind)?.placeholder ?? \"\";\n        return (\n          // biome-ignore lint/suspicious/noArrayIndexKey: 行无稳定 id，按索引受控即可",
+  "n": 1,
+  "files": [
+   "web/src/components/asset-intercept-rules-editor.tsx"
+  ]
+ },
+ {
+  "zh": "export type CompanyScopeKind = \"domain\" | \"ip\" | \"cidr\" | \"icp\" | \"keyword\";\n\n// 新增企业时提交的结构化资产范围规则。\nexport interface CompanyScopeRule",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "(`/notify/channels`, payload),\n  // PATCH 语义：只提交要改的字段。config 里的掩码值原样回传即表示「保持原值」。\n  notifyUpdateChannel: (\n    id: number,\n    payload:",
+  "n": 1,
+  "files": [
+   "web/src/lib/api.ts"
+  ]
+ },
+ {
+  "zh": ";\n\n// TaskInterceptRulesCard 在任务详情总览里管理「任务级资产拦截 / 允许规则」：\n// 列表 + 新增 + 行内编辑 + 删除 + 启用开关。规则仅本任务生效，不进全局表。\nfunction TaskInterceptRulesCard(",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n// 悬停在上下游条目上时弹出的节点名片:类型/状态/来源/时间 + 摘要 + payload 片段 + 涉及资产。\n// 数据来自本页已经拿到的 refs,不额外发请求——播报接口已经把邻居节点整份带回来了。\nfunction RelatedNodeCard(",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "// NotificationChannel 是一个渠道实例。config 的字段随 kind 而异，\n// 且凭据字段在读取时被替换成 \"__masked__\" 开头的掩码值——原样回传即表示「不改」。\nexport interface NotificationChannel",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "[\"variant\"];\n  className?: string;\n};\n\n// CopyButton 统一的「复制到剪贴板」按钮:内置成功/失败反馈,并在 HTTP 非安全上下文\n// 下自动降级(见 copyText)。\nexport function CopyButton(",
+  "n": 1,
+  "files": [
+   "web/src/components/copy-button.tsx"
+  ]
+ },
+ {
+  "zh": "// ---- 漏洞 IM 推送 ----\n\n// NotificationFilter 是渠道的过滤条件，字段全部可选，缺省即不过滤。\n// 后端对所有字段都不加校验：配置畸形时按「命中」处理（宁可多推不可漏推）。\nexport interface NotificationFilter",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "return m;\n  }, [tasks, convTokens, defaultProfileId]);\n\n  // 新版：按 profile 归桶（来自 llm_usage 全局聚合，逐次调用精确）。\n  const tokenByProfileNew = React.useMemo",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "` : \"\");\n\n// findingFilterParams 把发现页的筛选条件序列化成 query string。列表 / 分组 /\n// 资产树 / 导出共用同一份,新增筛选项只改这里(后端也只解析这一份)。\nfunction findingFilterParams(q: Omit",
+  "n": 1,
+  "files": [
+   "web/src/lib/api.ts"
+  ]
+ },
+ {
+  "zh": ";\n}\n\n// ---------------------------------------------------------------------------\n// G6 数据映射。自定义字段放节点顶层（G6 v5 官方 force 示例约定：style/layout 回调直接读 d.",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "([]);\n  const [saving, setSaving] = React.useState(false);\n  // null = 新增模式；非 null = 正在编辑该 id 的触发器。\n  const [editingId, setEditingId] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "单次回复最多生成多少 token，随每次请求发出。0（默认）= 不发送该字段，由服务端默认值决定。\n                  这与上面的「上下文窗口」是两回事：那是模型总容量，只在本地用来算压缩阈值。\n                  设太小会让推理模型在思考阶段就被截断，一个字答案都出不来。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "开启（默认）走流式 SSE，有运行中实时进度与实时 token 计数。 关闭则走真·非流式（stream:false，\n                  一次性返回完整响应）——可绕开部分网关糟糕的 SSE 实现（空帧 / 思考字段丢帧），\n                  代价是失去运行中的实时进度。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "激活配置恒为第 1 顺位，其余按优先级从高到低（在各配置里设置）。某个配置失败后进入冷却 （60s → 5min →\n                30min），冷却期内被跳过，恢复后自动切回。上下文窗口装不下当前请求的配置会被跳过。 指定了模型的 Agent\n                与任务默认不参与轮询。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "(null);\n  const atts = attachments ?? [];\n  // 发送键位由系统设置决定（localStorage），默认 Enter 发送。\n  const sendMode = useChatSendMode();\n  function onKeyDown(e: React.KeyboardEvent",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\n// 可筛选的类型。起点(fact/state=origin)不单独列,它跟着「事实」一起过滤。\nconst FILTER_KINDS: ExploreKind[] = [\"goal\", \"intent\", \"fact\", \"finding\", \"hint\", \"digest\"];\n\nconst REL_LABEL: Record",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/broadcast-tab.tsx"
+  ]
+ },
+ {
+  "zh": "= 10000 ? 0 : 1) + \"k\";\n  return String(n);\n}\n\n// 缓存命中率 = 缓存读 / 输入（InputTokens 已含 cache_read 子集，故比值在 0–100%）。\nfunction cacheHitRate(cacheRead: number, input: number): string",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "/uploads/,拿回绝对路径追加进描述。\n  const [uploading, setUploading] = React.useState(false);\n  const [uploadCount, setUploadCount] = React.useState(0);\n  const draftIdRef = React.useRef",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "// ---- LLM 轮询（故障转移）----\n// 一个配置在轮询链中的位置与健康状态。state:\n//   ok       正常\n//   degraded 有连续失败但未达熔断阈值\n//   tripped  已熔断，冷却期内被跳过（cooldown_secs 为剩余秒数）\nexport interface LLMPoolMember",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "(null);\n  const [cancelReason, setCancelReason] = React.useState(\"\");\n  // 删除模式:soft=假删除(默认,置 deleted + 记原因,保留数据)| hard=真删除(级联移除独占子孙)。\n  const [deleteMode, setDeleteMode] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "new Set());\n  // 导出弹窗状态:范围(当前筛选/全部/选中) × 格式(md 单文件/md 分文件 zip/csv/json)。\n  const [exportOpen, setExportOpen] = React.useState(false);\n  const [exportScope, setExportScope] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "(ZERO_OVERRIDE); // 本配置的重试覆盖;全 0=跟随全局\n  const [testing, setTesting] = React.useState(false);\n  const [saving, setSaving] = React.useState(false);\n  const [models, setModels] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "ordered.slice((page - 1) * pageSize, page * pageSize),\n    [ordered, page, pageSize],\n  );\n\n  // 多选删除:选择跨翻页/筛选保留,只在任务真的消失(被删或后端不再返回)时收敛。\n  const [selectedIds, setSelectedIds] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "// 全局策略 = 上面三层的默认值 + 两层只有全局的：\n//   breaker 轮询熔断（attempts=连续几次瞬时失败熔断，interval_ms=固定冷却时长）\n//   intent  意图重跑（worker 以 model_error 收场后整条意图重跑）\nexport interface LLMRetryPolicy extends LLMRetryOverride",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "// copyText 把文本写入剪贴板,返回是否成功。\n// 背景:navigator.clipboard 仅在安全上下文(HTTPS / localhost)可用;通过 IP + HTTP\n// 访问时它为 undefined,此时降级到 execCommand(\"copy\")。\nexport async function copyText(text: string): Promise",
+  "n": 1,
+  "files": [
+   "web/src/lib/utils.ts"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n// ExplorationGraph is the shared探索图/攻击链路图 canvas — used by the task graph\n// tab (full graph, polled) and the finding lineage view (origin→finding subgraph).\nexport function ExplorationGraph(",
+  "n": 1,
+  "files": [
+   "web/src/components/exploration-graph.tsx"
+  ]
+ },
+ {
+  "zh": "// ---- Findings by asset (资产视图) ----\nexport type FindingAssetKind = \"company\" | \"root_domain\" | \"subdomain\" | \"ip\" | \"service\" | \"app\" | \"endpoint\" | \"none\";\n\n// FindingAssetNode 是资产树的一个节点。key 形如 a:",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "(\"/exploration/findings/stats\"),\n  // exportFindings 触发发现页导出并下载文件。scope=selected 时传 ids(finding_id 列表);\n  // scope=filtered 时传当前筛选(沿用 FindingQuery 的筛选字段);scope=all 忽略筛选。\n  exportFindings: async (opts:",
+  "n": 1,
+  "files": [
+   "web/src/lib/api.ts"
+  ]
+ },
+ {
+  "zh": "(null);\n  const [editText, setEditText] = React.useState(\"\");\n  const [editVuln, setEditVuln] = React.useState(\"\");\n  // 约束管理：约束列表 + 新增表单 + 行内编辑状态。\n  const [constraints, setConstraints] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "]);\n  const [currentSeg, setCurrentSeg] = React.useState(0);\n  const [creatingMain, setCreatingMain] = React.useState(false);\n  const [confirmNewMain, setConfirmNewMain] = React.useState(false);\n  // 手机端（",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "本软件按\"현황(AS IS)\"与\"现有（AS\n                AVAILABLE）\"状态提供，不附带任何明示或默示的担保，包括但不限于对适销性、特定用途适用性、准确性及不侵权的担保。在适用法律允许的最大范围内，本软件作者及贡献者不对因使用或无法使用本软件（无论使用方式是否得当）而导致的任何直接、间接、偶然、特殊或后果性损失承担责任，包括但不限于数据丢失、系统损坏、业务中断、利润损失或法律纠纷。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\n// G6 节点图标用平台一致的 lucide 图标：把 lucide 的 SVG 路径（v1.22）渲染成白色描边的\n// data URI，作为节点 iconSrc（白色在实色/灰色底上都清晰）。手写内嵌，避免 react-dom/server\n// 在 React19/Next 客户端打包的问题。\nfunction svgUri(inner: string, filled = false): string",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "// ---------------------------------------------------------------------------\n// 抽屉：资产节点看详情；折叠节点看隐藏列表 + \"더 보기\"。\n// ---------------------------------------------------------------------------\nfunction DetailRow(",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "本软件（ARTEX）是一款基于 GNU Affero General Public License\n                v3.0（AGPL-3.0）发布的开源程序。您可依据该协议自由使用、复制、修改和分发本软件；但任何衍生作品（包括通过网络向第三方提供的在线服务）均须同样以\n                AGPL-3.0 协议开源并向使用者公开对应的完整源代码。AGPL-3.0 完整条款以随附的 LICENSE 文件为准。",
+  "n": 1,
+  "files": [
+   "web/src/app/(auth)/login/page.tsx"
+  ]
+ },
+ {
+  "zh": "(null);\n  const [deleting, setDeleting] = React.useState(false);\n\n  // 调用统计：列表页的次数/最近调用随 api.skills() 一起回来；选中某个 skill 时再拉它的\n  // 最近调用明细。missing = 被点名但不存在的 skill（想用但没有）。\n  const [usageCalls, setUsageCalls] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/skills/page.tsx"
+  ]
+ },
+ {
+  "zh": "`);\n      }\n    },\n    [refreshAfterMutation, setFindings, status],\n  );\n\n  // 行内展开的详细报告缓存按全局稳定行键存。report 是大段 Markdown,列表查询不带它,\n  // 故展开时才按 finding_id 单独拉取一次;done 且文本为空 = 该漏洞暂无报告。\n  const [reports, setReports] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/page.tsx"
+  ]
+ },
+ {
+  "zh": "; // 自定义工具执行规格(kind!=builtin)\n  deferred?: boolean; // schema 延迟(SearchExtraTools/ExecuteExtraTool)\n  calls?: number; // persistent runtime invocation count (older APIs may omit it)\n}\n\n// ---- Stats ----\nexport interface Stats",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "// shortLabel 去掉与父节点重复的前缀。service / endpoint 的 label 是完整 URL,而\n// 宿主域名/IP 上一行已经写过了 —— 深层节点本来就窄,再把 host 重复一遍,真正有\n// 信息量的端口和路径就全被截断掉了。完整值仍在 title 与面包屑里。\nfunction shortLabel(node: FindingAssetNode, parent?: FindingAssetNode): string",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/asset-tree.tsx"
+  ]
+ },
+ {
+  "zh": ") : null;\n\n  const cancellable =\n    s.role === \"worker\" &&\n    !s.inherited &&\n    !deleted &&\n    // pending = 待领(open)意图;连同运行中/已暂停都允许删除。\n    (s.status === \"running\" || s.status === \"paused\" || s.status === \"pending\");\n  return (",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": ",\n    true, // capture:抢在 Radix 冒泡阶段的 pointerdown 处理器之前记录\n  );\n}\n\n// radixOverlayWasOpenAtPointerDown 返回\"最近一次 pointerdown 发生时是否有 Radix 弹层\n// 开着\"。抽屉/对话框据此:开着弹层时点遮罩 → 只收弹层、不关自身。\nexport function radixOverlayWasOpenAtPointerDown(): boolean",
+  "n": 1,
+  "files": [
+   "web/src/lib/utils.ts"
+  ]
+ },
+ {
+  "zh": "(\"/skills\", s),\n  // uploadSkill installs a skill from a .zip (multipart). Surfaces the backend\n  // error text (e.g. 已存在 / 缺少 SKILL.md) so the UI can show a precise message.\n  uploadSkill: async (file: File, overwrite = false): Promise",
+  "n": 1,
+  "files": [
+   "web/src/lib/api.ts"
+  ]
+ },
+ {
+  "zh": ";\n                            return (\n                              // break-words 会继承到段落/列表,pre 另加\n                              // whitespace-pre-wrap 让代码块也换行——否则长代码行/长 URL\n                              // 会撑宽 colSpan 单元格,把整张表挤出横向滚动条。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/findings/_components/findings-table.tsx"
+  ]
+ },
+ {
+  "zh": ";\n  status: \"pending\" | \"allowed\" | \"denied\" | \"timeout\";\n  reason: string; // 规则 message 或模型判定理由(模型判定带 [模型] 前缀)\n  decided_at?: string;\n  created_at: string;\n}\n\n// JudgeConfig: 模型兜底审批(仅当没有任何拦截规则命中时由模型判断)的全局配置。\nexport interface JudgeConfig",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "p.seq - q.seq);\n}\n\n// statusIcon maps a session status to its icon. Worker terminal states are\n// distinct & color-coded: 完成(绿勾圈) / 取消停止(琥珀斜杠圈) / 出错(红叉圈) /\n// 步数耗尽(紫). running=蓝色转圈, pending(待领取)=灰时钟.\nfunction statusIcon(status: SessionStatus)",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "([]);\n  const [total, setTotal] = React.useState(0);\n  const [loading, setLoading] = React.useState(false);\n\n  // 各工具调用次数。弹窗打开时才拉取（多一次聚合查询，不必每次翻页都付）。\n  const [statsOpen, setStatsOpen] = React.useState(false);\n  const [stats, setStats] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/commands/page.tsx"
+  ]
+ },
+ {
+  "zh": "(null);\n  const [poolOpen, setPoolOpen] = React.useState(false);\n  // 抽屉的开关和内容分开存：关闭时 editing 保持不变，否则关闭动画期间标题会从\n  // 「编辑 X」闪成「新建」。editing = null 表示新建。\n  const [editOpen, setEditOpen] = React.useState(false);\n  const [editing, setEditing] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ },
+ {
+  "zh": "',\n  true,\n);\n\n// ---------------------------------------------------------------------------\n// Folding: full graph → currently-visible node/edge set (自顶向下级联折叠)。\n// ---------------------------------------------------------------------------\ntype FoldNode =",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/coverage-graph-tab.tsx"
+  ]
+ },
+ {
+  "zh": "; // full JSON-Schema (object with properties)\n  agents: string[]; // bound agent keys\n  enabled: boolean;\n  kind?: \"builtin\" | \"shell\" | \"command\" | \"script\" | \"http\"; // 自定义工具类型\n  // eslint-disable-next-line @typescript-eslint/no-explicit-any\n  exec?: Record",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "// ---- Tools (内置工具目录) ----\n// key + handler live in Go; only these fields are page-editable. system tools lock\n// the key and the parameter *structure* (name/type/required) — the per-param\n// description/default and the agent binding are what move.\nexport interface Tool",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ");\n}\n\n// AgentTriggersTab manages a custom agent's P3 triggers: list + add + delete.\n// Each trigger fires (定时/发现finding/目标达成/任务超时/工具调用，可多选) → a new conversation runs\n// in parallel with the base user message + auto context appended by the backend.\nfunction AgentTriggersTab(",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "([]);\n  const [running, setRunning] = React.useState(false);\n  const [input, setInput] = React.useState(initial?.input ?? \"\");\n  const [sending, setSending] = React.useState(false);\n  const [stopping, setStopping] = React.useState(false);\n  // 方式1 文件上传:已上传的附件(落到 sessions/conv-",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/chat/page.tsx"
+  ]
+ },
+ {
+  "zh": ",\n];\n\n// Select 不接受空字符串 value,所以「无分类」在筛选器、新建表单和批量移动里\n// 统一用这个哨兵值,提交时再翻译成后端的 null。\nconst UNCATEGORIZED_VALUE = \"uncategorized\";\n\n// 可暂停 = 非终态且未暂停,与后端 applyTaskControlWithCause 的门控一致\n// (done/failed/timeout 为终态);paused 才可继续。行内按钮与批量控制共用此判断,\n// 两边不会出现一个可点、另一个不可点的分歧。\nconst PAUSABLE_STATUSES = new Set",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": "(\"root_domain\");\n  const [scopeValueInput, setScopeValueInput] = React.useState(\"\");\n  const [scopeBusy, setScopeBusy] = React.useState(false);\n  const [scopeErr, setScopeErr] = React.useState(\"\");\n  // 按模型的 token 用量（来自常开的 llm_usage 计量账本，逐次精确）。\n  const [modelTokens, setModelTokens] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/overview-tab.tsx"
+  ]
+ },
+ {
+  "zh": "([]);\n  const [preview, setPreview] = React.useState(\"\");\n  const [maxTurns, setMaxTurns] = React.useState(\"0\");\n  const [runSecs, setRunSecs] = React.useState(\"600\");\n  // \"\" = 跟随(未绑定)；否则为 profile id 字符串\n  const [llmProfileId, setLlmProfileId] = React.useState(\"\");\n  const [llmProfiles, setLlmProfiles] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "(\"soft\");\n  const [workerMessage, setWorkerMessage] = React.useState(\"\");\n  const [workerMessageRequestId, setWorkerMessageRequestId] = React.useState(\"\");\n  const [workerMessageSending, setWorkerMessageSending] = React.useState(false);\n  // 方式1 文件上传:选好的附件(已落到任务工作目录 uploads/),随下条消息一起发。\n  const [attachments, setAttachments] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/detail/_tabs/sessions-tab.tsx"
+  ]
+ },
+ {
+  "zh": "// buildConfig 把表单状态转成渠道 config。\n  //\n  // 唯一的规则，两类值：\n  //   - 掩码值（\"__masked__...\"）原样送回 → 后端解读为「这个字段没改，保留库中原值」\n  //   - 其余一律按用户输入提交，空串即「清空该字段」\n  //\n  // 之所以不特殊照顾凭据字段（比如「凭据留空就跳过」），是因为那会让用户**无法清除**\n  // 一个设错的密钥——界面上没有任何操作能表达「我要把它删掉」。现在的规则下，\n  // 清空输入框就等于清空该字段，语义唯一且用户可控。\n  // 掩码值不会出现在输入框里（见 ConfigField），所以「框里有字」永远等于\n  // 「用户主动填的」。\n  function buildConfig(): Record",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/page.tsx"
+  ]
+ },
+ {
+  "zh": "(defaultForm());\n  const [saving, setSaving]   = React.useState(false);\n  const [regexErr, setRegexErr] = React.useState(\"\");\n  const [regexWarn, setRegexWarn] = React.useState(false); // true = JS 无法解析但可能是合法 Go 语法\n\n  // ---- tool scope dialog ----\n  const [scopeOpen, setScopeOpen]       = React.useState(false);\n  const [allTools, setAllTools]         = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/intercept/page.tsx"
+  ]
+ },
+ {
+  "zh": "// ---- Asset Intercept Rules（资产拦截：全局黑名单） ----\nexport type AssetInterceptKind =\n  | \"exact_domain\"\n  | \"exact_ip\"\n  | \"exact_url\"\n  | \"fuzzy_domain\"\n  | \"fuzzy_ip\"\n  | \"fuzzy_url\"\n  | \"cidr\";\n\n// action 仅用于任务级规则：block=拦截(禁止测试) allow=允许(白名单)。\nexport type AssetInterceptAction = \"block\" | \"allow\";\n\n// 任务级资产拦截/允许规则的录入项（创建任务、任务详情编辑使用）。\nexport interface AssetInterceptRuleInput",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ");\n  };\n\n  const phase = progress?.phase;\n  const showProgress = busy || restarting;\n  // 只有下载阶段拿得到真实百分比（按 Content-Length 算）。校验/解压/等待重启都是\n  // 时长不可知的阶段，进度条填满并加个脉冲动画表示\"작업 중이지만 남은 시간은 불확실\"。\n  const downloading = !restarting && phase === \"downloading\";\n  const pct = downloading ? Math.max(progress?.percent ?? 0, 0) : 100;\n\n  return (\n    // 设置页是多列瀑布流布局，卡片自己负责行间距并禁止跨列断开（见 page.tsx 的注释）。",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/settings/_components/update-card.tsx"
+  ]
+ },
+ {
+  "zh": "// ---- Findings ----\nexport type Severity = \"critical\" | \"high\" | \"medium\" | \"low\";\n\n// 漏洞处置状态:待处理 / 处理中 / 已确认 / 已处理 / 已修复 / 误报 / 忽略 / 重复 / 风险接受。\nexport type FindingStatus =\n  | \"pending\"\n  | \"in_progress\"\n  | \"confirmed\"\n  | \"resolved\"\n  | \"fixed\"\n  | \"false_positive\"\n  | \"ignored\"\n  | \"duplicate\"\n  | \"risk_accepted\";\n\n// FindingAsset 是一个漏洞绑定的资产(已在后端预渲染 label)。\nexport interface FindingAsset",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": ");\n\nconst deleteOptionKeys: (keyof DeleteTaskOptions)[] = [\n  \"delete_assets\",\n  \"delete_traffic\",\n  \"delete_files\",\n  \"delete_findings\",\n  \"delete_llm_records\",\n];\n\n// DeleteOptionFields renders the「同时清理关联数据」checkbox block shared by the\n// single-task and bulk delete dialogs. idPrefix keeps the label/input ids unique when\n// several dialogs live in the same table.\nfunction DeleteOptionFields(",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n\n// 各渠道的配置字段定义。\n//\n// 这里刻意保留一份前端字段表，而不是让后端下发 schema：后端只负责\n// Validate（必填/格式），UI 需要的是布局与控件类型，两者关注的不是同一件事。\n// 唯一的耦合点是 secret_keys —— 哪些字段该渲染成密码框由后端给出，\n// 因为只有渠道实现自己清楚哪些值算凭据（企业微信的整个 Webhook 就是凭据，\n// 而钉钉的只是其中一个 secret）。新增渠道时这里少一个条目只会让表单变空白，\n// 不会静默出错（下面的 hasFields 会提示）。\nexport type FieldKind = \"text\" | \"password\" | \"number\" | \"select\" | \"textarea\" | \"switch\" | \"kv\" | \"list\";\nexport interface FieldDef",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/notify/_components/channel-fields.ts"
+  ]
+ },
+ {
+  "zh": "t.enabled);\n  const pendingCount = pending.length;\n\n  // ── token stats per LLM profile ──────────────────────────────────────────\n  // tasks whose llm_profile_id is null/undefined used the active default profile\n  const defaultProfileId = activeProfile ? Number(activeProfile.id) : null;\n\n  // 数据源开关：旧版 = activity（task.tokens + 会话），新版 = llm_usage 计量账本。\n  const [tokenVersion, setTokenVersion] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/dashboard/page.tsx"
+  ]
+ },
+ {
+  "zh": "# ARTEX 渗透测试报告 — Acme Corp\n\n## 概览\n- 范围：acme.com（含 www / admin / api / shop / vpn 子域）\n- 已确认发现：6 项（高危 3 · 中危 3 · 低危 2）\n- 引擎模式：exploring\n\n## 关键发现\n1. **[高] 后台默认口令** admin.acme.com admin/admin123 → 可完全接管后台。\n2. **[高] SQL 注入** www.acme.com/search?q= → 可读取 acme_prod 库。\n3. **[高] IDOR** api.acme.com/v1/orders?id= → 可越权读取他人订单（含手机号/地址）。\n4. **[中] 反射型 XSS**、**暴露 .git 源码**、**登录无速率限制**。\n\n## 建议\n- 后台强制改密 + 启用 MFA、封禁默认口令。\n- search 接口参数化查询、输出编码。\n- API 增加对象级授权校验（IDOR）、更换强 JWT 密钥。\n\n> （demo）本报告由 mock 数据生成，仅用于界面演示。",
+  "n": 1,
+  "files": [
+   "web/src/lib/api.ts"
+  ]
+ },
+ {
+  "zh": "([]);\n  const [creating, setCreating] = React.useState(false);\n  const [timeoutMin, setTimeoutMin] = React.useState(\"\"); // 任务级超时(分钟);空/0 = 不限时\n  const [heartbeatMin, setHeartbeatMin] = React.useState(\"10\"); // planner 心跳(分钟);默认10,下限10(与后端一致)\n  const [seedFirstIntent, setSeedFirstIntent] = React.useState(false); // 创建时下发种子意图,worker 免等首轮 planner 直接开跑;默认关闭,走标准先规划再执行\n  const [coverageEnabled, setCoverageEnabled] = React.useState(true); // 资产覆盖度功能;默认开。关闭=不计算/展示覆盖度、不累积范围、隐藏范围类工具(company 关联不受影响)\n  const [interceptRules, setInterceptRules] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/tasks/page.tsx"
+  ]
+ },
+ {
+  "zh": ";\n  }\n  // config is meaningless for the conversational main agent and the fixed-budget\n  // goals decomposer; every other agent (workers, custom assistants) honors it.\n  const showConfig = agentKey !== \"mainagent\" && agentKey !== \"goals\";\n  // web search applies to every conversational/executing agent except the one-shot\n  // goals decomposer; it's gated by the global master switch.\n  const showWebSearch = agentKey !== \"goals\";\n  // interactive shell (持久 PTY 会话工具族) 同样对除 goals 外的 agent 开放;无全局门控。\n  const showInteractiveShell = agentKey !== \"goals\";\n  // 每个 agent(含 goals/mainagent)都跑在某个 LLM 上,故「默认模型」绑定对所有 agent 开放。\n  const showLLM = true;\n  // triggers (P3) only attach to custom agents.\n  const isCustom = !!detail && !detail.agent?.builtin;\n\n  return (",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "([]);\n  const [webSearch, setWebSearch] = React.useState(false);\n  const [interactiveShell, setInteractiveShell] = React.useState(false);\n  const [wrapup, setWrapup] = React.useState(\"\");\n  const [wrapupDefault, setWrapupDefault] = React.useState(\"\");\n  const [wrapupTurns, setWrapupTurns] = React.useState(\"0\");\n  const [wrapupTurnsDefault, setWrapupTurnsDefault] = React.useState(5);\n  // 任务级超时收尾词(仅 worker/planner)\n  const [ttSupported, setTtSupported] = React.useState(false);\n  const [ttWrapup, setTtWrapup] = React.useState(\"\");\n  const [ttWrapupDefault, setTtWrapupDefault] = React.useState(\"\");\n  const [ttTurns, setTtTurns] = React.useState(\"0\");\n  const [ttTurnsDefault, setTtTurnsDefault] = React.useState(5);\n  const [settings, setSettings] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/components/agent-editor.tsx"
+  ]
+ },
+ {
+  "zh": "// FINDING_UNASSIGNED_ASSET 与后端 db.FindingUnassignedAsset 对应。\nexport const FINDING_UNASSIGNED_ASSET = \"__none__\";\n\n// ---- Activity / sessions ----\nexport type ActivityKind =\n  | \"tool_use\"\n  | \"tool_result\"\n  | \"text\"\n  | \"thinking\"\n  | \"result\"\n  | \"user\"\n  | \"intent\" // LLM-generated exploration objective leading a worker session (UI-synthesized)\n  | \"round\" // planner round boundary marker (engine-emitted)\n  | \"usage\" // live cumulative token usage (per model turn); not rendered\n  | \"llm_switch\" // automatic/manual task-level LLM switch\n  | \"llm_failover\" // task-level provider switch / chain exhaustion audit event\n  | \"intercept_request\"; // user-approval request from the intercept layer\n\n// ChatAttachment 是一次上传的文件:path 相对该会话/任务工作目录(即 agent 的 CWD)。\nexport interface ChatAttachment",
+  "n": 1,
+  "files": [
+   "web/src/lib/types.ts"
+  ]
+ },
+ {
+  "zh": "(null);\n  const [detailLoading, setDetailLoading] = React.useState(false);\n  // 归一化视图 / HTTP 原文视图。原文是排查 provider 侧问题的唯一依据：归一化视图\n  // 不含工具 schema，响应里也没有 tool_use 块。\n  const [rawView, setRawView] = React.useState(false);\n\n  const hasRaw = !!(detail?.raw_request || detail?.raw_response);\n  // 开关保持用户选择，但切到一条无原文的旧记录时自动落回解析视图，而不是显示空白。\n  const showRaw = rawView && hasRaw;\n  // 原文请求体是 JSON，pretty-print 只改排版不改语义，便于阅读；原文响应是 SSE\n  // 帧，tryFormatJSON 解析失败会原样返回，故两边共用一个函数即可。\n  const reqText = showRaw\n    ? detail?.raw_request && tryFormatJSON(detail.raw_request)\n    : detail?.request_body && tryFormatJSON(detail.request_body);\n  const respText = showRaw\n    ? detail?.raw_response\n    : detail?.response_body && tryFormatJSON(detail.response_body);\n\n  // Per-task delete (task picker + confirm dialog)\n  const [tasks, setTasks] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/function/llm-records/page.tsx"
+  ]
+ },
+ {
+  "zh": "(\"anthropic\");\n  const [model, setModel] = React.useState(\"\");\n  const [baseUrl, setBaseUrl] = React.useState(\"\");\n  const [proxy, setProxy] = React.useState(\"\");\n  const [apiKey, setApiKey] = React.useState(\"\");\n  const [keyHint, setKeyHint] = React.useState(\"\");\n  const [rps, setRps] = React.useState(\"0\");\n  const [rpm, setRpm] = React.useState(\"0\");\n  const [cw, setCw] = React.useState(\"0\"); // 上下文窗口(K tokens);0=默认200K\n  const [thinkingType, setThinkingType] = React.useState(NONE);\n  const [effort, setEffort] = React.useState(NONE);\n  const [priority, setPriority] = React.useState(\"0\"); // 轮询顺位;越大越先\n  const [poolExclude, setPoolExclude] = React.useState(false);\n  const [streaming, setStreaming] = React.useState(true); // true=流式(默认);false=非流式\n  const [maxTokens, setMaxTokens] = React.useState(\"0\"); // 单次回复输出上限;0=不发送\n  const [maxTokensField, setMaxTokensField] = React.useState(NONE); // 上限用哪个字段名;NONE=max_tokens\n  const [sessionHeaderKey, setSessionHeaderKey] = React.useState(\"\"); // 自定义会话头名;空=不发送\n  const [retry, setRetry] = React.useState",
+  "n": 1,
+  "files": [
+   "web/src/app/(main)/system/llm/page.tsx"
+  ]
+ }
+]

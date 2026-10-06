@@ -1,0 +1,562 @@
+[
+ {
+  "zh": "(null);\n  const atts = attachments ?? [];\n  // 发送键位由系统设置决定（localStorage），默认 Enter 发送。\n  const sendMode = useChatSendMode();\n  function onKeyDown(e: React.KeyboardEvent",
+  "n": 1
+ },
+ {
+  "zh": "([]);\n  const [running, setRunning] = React.useState(false);\n  const [input, setInput] = React.useState(initial?.input ?? \"\");\n  const [sending, setSending] = React.useState(false);\n  const [stopping, setStopping] = React.useState(false);\n  // 方式1 文件上传:已上传的附件(落到 sessions/conv-",
+  "n": 1
+ },
+ {
+  "zh": "/uploads/),随下条消息一起发。\n  const [attachments, setAttachments] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "t.enabled);\n  const pendingCount = pending.length;\n\n  // ── token stats per LLM profile ──────────────────────────────────────────\n  // tasks whose llm_profile_id is null/undefined used the active default profile\n  const defaultProfileId = activeProfile ? Number(activeProfile.id) : null;\n\n  // 数据源开关：旧版 = activity（task.tokens + 会话），新版 = llm_usage 计量账本。\n  const [tokenVersion, setTokenVersion] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "(\"old\");\n  // selected profile tab: \"all\" = 全部; number = specific profile id\n  const [tokenTab, setTokenTab] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n  // 旧版：按 profile 归桶（来自 activity 的 task.tokens + 会话用量）。\n  const tokenByProfileOld = React.useMemo",
+  "n": 1
+ },
+ {
+  "zh": "return m;\n  }, [tasks, convTokens, defaultProfileId]);\n\n  // 新版：按 profile 归桶（来自 llm_usage 全局聚合，逐次调用精确）。\n  const tokenByProfileNew = React.useMemo",
+  "n": 1
+ },
+ {
+  "zh": "([]);\n  const [total, setTotal] = React.useState(0);\n  const [loading, setLoading] = React.useState(false);\n\n  // 各工具调用次数。弹窗打开时才拉取（多一次聚合查询，不必每次翻页都付）。\n  const [statsOpen, setStatsOpen] = React.useState(false);\n  const [stats, setStats] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n// TreeNode 是节点数组组装出来的树。后端已按「同父下发现多的在前」排好序,\n// 这里只需按数组顺序挂载。\ninterface TreeNode extends FindingAssetNode",
+  "n": 1
+ },
+ {
+  "zh": "// hostOf 取一个节点代表的宿主:URL 取 hostname,「host:port」取 host,其余就是\n// 标签本身(根域名 / 子域名 / IP)。\nfunction hostOf(label: string): string",
+  "n": 1
+ },
+ {
+  "zh": "// shortLabel 去掉与父节点重复的前缀。service / endpoint 的 label 是完整 URL,而\n// 宿主域名/IP 上一行已经写过了 —— 深层节点本来就窄,再把 host 重复一遍,真正有\n// 信息量的端口和路径就全被截断掉了。完整值仍在 title 与面包屑里。\nfunction shortLabel(node: FindingAssetNode, parent?: FindingAssetNode): string",
+  "n": 1
+ },
+ {
+  "zh": "n !== null);\n}\n\n// collectKeys 收集一棵(子)树里的全部 key,用于「展开全部匹配项」。\nfunction collectKeys(nodes: TreeNode[], out: Set",
+  "n": 1
+ },
+ {
+  "zh": "new Set());\n  // 记住用户手动折叠过的节点,免得「默认展开顶层」在每次刷新后又把它们撑开。\n  const [collapsed, setCollapsed] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "return (\n    /* 固定列宽保证展开内容不撑开表格；窄屏只在表格内部横向滚动。 */",
+  "n": 1
+ },
+ {
+  "zh": ";\n                            return (\n                              // break-words 会继承到段落/列表,pre 另加\n                              // whitespace-pre-wrap 让代码块也换行——否则长代码行/长 URL\n                              // 会撑宽 colSpan 单元格,把整张表挤出横向滚动条。",
+  "n": 1
+ },
+ {
+  "zh": "return next;\n    });\n  }, []);\n\n  // 勾选导出:按 finding_id(独立表 id)记选中项,跨页保留。\n  const [selectedIds, setSelectedIds] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "new Set());\n  // 导出弹窗状态:范围(当前筛选/全部/选中) × 格式(md 单文件/md 分文件 zip/csv/json)。\n  const [exportOpen, setExportOpen] = React.useState(false);\n  const [exportScope, setExportScope] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "`);\n      }\n    },\n    [refreshAfterMutation, setFindings, status],\n  );\n\n  // 行内展开的详细报告缓存按全局稳定行键存。report 是大段 Markdown,列表查询不带它,\n  // 故展开时才按 finding_id 单独拉取一次;done 且文本为空 = 该漏洞暂无报告。\n  const [reports, setReports] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ");\n\n  // 行内可编辑缓冲:当前展开行的名称/类别/严重等级,展开时用该行数据初始化,收起清空。\n  // 单行展开,故一份缓冲即可。\n  const [edit, setEdit] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n  // 平铺视图与资产视图右侧是同一张表 + 同一份分页,只是筛选条件不同。\n  const flatListCard = (",
+  "n": 1
+ },
+ {
+  "zh": "// 复制当前框内文本的小按钮。复制成功后短暂显示对勾。text 为空/仅占位符时禁用。\nfunction CopyButton(",
+  "n": 1
+ },
+ {
+  "zh": "(null);\n  const [detailLoading, setDetailLoading] = React.useState(false);\n  // 归一化视图 / HTTP 原文视图。原文是排查 provider 侧问题的唯一依据：归一化视图\n  // 不含工具 schema，响应里也没有 tool_use 块。\n  const [rawView, setRawView] = React.useState(false);\n\n  const hasRaw = !!(detail?.raw_request || detail?.raw_response);\n  // 开关保持用户选择，但切到一条无原文的旧记录时自动落回解析视图，而不是显示空白。\n  const showRaw = rawView && hasRaw;\n  // 原文请求体是 JSON，pretty-print 只改排版不改语义，便于阅读；原文响应是 SSE\n  // 帧，tryFormatJSON 解析失败会原样返回，故两边共用一个函数即可。\n  const reqText = showRaw\n    ? detail?.raw_request && tryFormatJSON(detail.raw_request)\n    : detail?.request_body && tryFormatJSON(detail.request_body);\n  const respText = showRaw\n    ? detail?.raw_response\n    : detail?.response_body && tryFormatJSON(detail.response_body);\n\n  // Per-task delete (task picker + confirm dialog)\n  const [tasks, setTasks] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n// ── 同步工作区（项目 / 任务维度）────────────────────────────────────────────────\n\nfunction SyncWorkbench()",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n// 可筛选的类型。起点(fact/state=origin)不单独列,它跟着「事实」一起过滤。\nconst FILTER_KINDS: ExploreKind[] = [\"goal\", \"intent\", \"fact\", \"finding\", \"hint\", \"digest\"];\n\nconst REL_LABEL: Record",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n// goal / intent 的状态语义由全局 status 表提供(StatusBadge);其余类型的状态只在\n// 图和播报里出现,这里补一份。\nconst STATE_META: Record",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n// 任务根是 state=origin 的 fact,播报里读作「起点」。\nfunction viewKind(n: TaskNode): string",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n// 节点锚定的资产:类型标签 + 可辨识文本。数据随播报页一起下发(node id → 资产),\n// 展开时直接展示,不额外请求。\nfunction AssetList(",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n// 悬停在上下游条目上时弹出的节点名片:类型/状态/来源/时间 + 摘要 + payload 片段 + 涉及资产。\n// 数据来自本页已经拿到的 refs,不额外发请求——播报接口已经把邻居节点整份带回来了。\nfunction RelatedNodeCard(",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n// 一条播报涉及的上下游:上游 = 指向本节点的边,下游 = 本节点指出去的边。\nfunction RelatedList(",
+  "n": 1
+ },
+ {
+  "zh": "pageCount) setPage(pageCount);\n  }, [page, pageCount]);\n\n  // 按天分组:播报流按日期断行,长任务翻页时还能认出「这是哪天的事」。\n  const groups: Array",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n// G6 节点图标用平台一致的 lucide 图标：把 lucide 的 SVG 路径（v1.22）渲染成白色描边的\n// data URI，作为节点 iconSrc（白色在实色/灰色底上都清晰）。手写内嵌，避免 react-dom/server\n// 在 React19/Next 客户端打包的问题。\nfunction svgUri(inner: string, filled = false): string",
+  "n": 1
+ },
+ {
+  "zh": "',\n  true,\n);\n\n// ---------------------------------------------------------------------------\n// Folding: full graph → currently-visible node/edge set (自顶向下级联折叠)。\n// ---------------------------------------------------------------------------\ntype FoldNode =",
+  "n": 1
+ },
+ {
+  "zh": ";\n}\n\n// ---------------------------------------------------------------------------\n// G6 数据映射。自定义字段放节点顶层（G6 v5 官方 force 示例约定：style/layout 回调直接读 d.",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n// G6 的类型把自定义字段归在 data 下，但官方 force 示例（及运行时）按顶层读 d.",
+  "n": 1
+ },
+ {
+  "zh": "d as G6NodeDatum;\n\n// 已测=实色高亮；范围内未测=灰；范围外/折叠=更淡的灰 + 虚线描边。\nfunction nodeFill(d: G6NodeDatum): string",
+  "n": 1
+ },
+ {
+  "zh": "// ---------------------------------------------------------------------------\n// 抽屉：资产节点看详情；折叠节点看隐藏列表 + \"더 보기\"。\n// ---------------------------------------------------------------------------\nfunction DetailRow(",
+  "n": 1
+ },
+ {
+  "zh": "(null);\n  // click 处理需要最新的 key→RenderNode 映射（G6 事件回调闭包外读 ref）。\n  const renderMapRef = React.useRef",
+  "n": 1
+ },
+ {
+  "zh": "= 10000 ? 0 : 1) + \"k\";\n  return String(n);\n}\n\n// 缓存命中率 = 缓存读 / 输入（InputTokens 已含 cache_read 子集，故比值在 0–100%）。\nfunction cacheHitRate(cacheRead: number, input: number): string",
+  "n": 1
+ },
+ {
+  "zh": "(null);\n  // 正在重跑的意图 id（含 \"__all__\" 表示批量），用于禁用按钮 + 转圈。\n  const [rerunning, setRerunning] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "(new Set());\n  // 测试范围列表 + 新增表单状态。\n  const [scope, setScope] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "(\"root_domain\");\n  const [scopeValueInput, setScopeValueInput] = React.useState(\"\");\n  const [scopeBusy, setScopeBusy] = React.useState(false);\n  const [scopeErr, setScopeErr] = React.useState(\"\");\n  // 按模型的 token 用量（来自常开的 llm_usage 计量账本，逐次精确）。\n  const [modelTokens, setModelTokens] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "([]);\n  // 目标管理：目标列表 + 新增表单 + 行内编辑状态。\n  const [goals, setGoals] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "(null);\n  const [editText, setEditText] = React.useState(\"\");\n  const [editVuln, setEditVuln] = React.useState(\"\");\n  // 约束管理：约束列表 + 新增表单 + 行内编辑状态。\n  const [constraints, setConstraints] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n// TaskInterceptRulesCard 在任务详情总览里管理「任务级资产拦截 / 允许规则」：\n// 列表 + 新增 + 行内编辑 + 删除 + 启用开关。规则仅本任务生效，不进全局表。\nfunction TaskInterceptRulesCard(",
+  "n": 1
+ },
+ {
+  "zh": "p.seq - q.seq);\n}\n\n// statusIcon maps a session status to its icon. Worker terminal states are\n// distinct & color-coded: 完成(绿勾圈) / 取消停止(琥珀斜杠圈) / 出错(红叉圈) /\n// 步数耗尽(紫). running=蓝色转圈, pending(待领取)=灰时钟.\nfunction statusIcon(status: SessionStatus)",
+  "n": 1
+ },
+ {
+  "zh": ";\n    case \"pending\": // 待领取(open intent)\n      return",
+  "n": 1
+ },
+ {
+  "zh": ";\n    case \"done\": // 完成\n      return",
+  "n": 1
+ },
+ {
+  "zh": ";\n    case \"stopped\": // 取消/停止(被 planner 终止)\n      return",
+  "n": 1
+ },
+ {
+  "zh": ";\n    case \"blocked\": // 出错\n      return",
+  "n": 1
+ },
+ {
+  "zh": ";\n    case \"exhausted\": // 步数耗尽(撞 max_turns)\n      return",
+  "n": 1
+ },
+ {
+  "zh": ";\n    case \"deleted\": // 用户假删除\n      return",
+  "n": 1
+ },
+ {
+  "zh": ") : null;\n\n  const cancellable =\n    s.role === \"worker\" &&\n    !s.inherited &&\n    !deleted &&\n    // pending = 待领(open)意图;连同运行中/已暂停都允许删除。\n    (s.status === \"running\" || s.status === \"paused\" || s.status === \"pending\");\n  return (",
+  "n": 1
+ },
+ {
+  "zh": "]);\n  const [currentSeg, setCurrentSeg] = React.useState(0);\n  const [creatingMain, setCreatingMain] = React.useState(false);\n  const [confirmNewMain, setConfirmNewMain] = React.useState(false);\n  // 手机端（",
+  "n": 1
+ },
+ {
+  "zh": "(null);\n  const [cancelReason, setCancelReason] = React.useState(\"\");\n  // 删除模式:soft=假删除(默认,置 deleted + 记原因,保留数据)| hard=真删除(级联移除独占子孙)。\n  const [deleteMode, setDeleteMode] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "(\"soft\");\n  const [workerMessage, setWorkerMessage] = React.useState(\"\");\n  const [workerMessageRequestId, setWorkerMessageRequestId] = React.useState(\"\");\n  const [workerMessageSending, setWorkerMessageSending] = React.useState(false);\n  // 方式1 文件上传:选好的附件(已落到任务工作目录 uploads/),随下条消息一起发。\n  const [attachments, setAttachments] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ",\n];\n\n// Select 不接受空字符串 value,所以「无分类」在筛选器、新建表单和批量移动里\n// 统一用这个哨兵值,提交时再翻译成后端的 null。\nconst UNCATEGORIZED_VALUE = \"uncategorized\";\n\n// 可暂停 = 非终态且未暂停,与后端 applyTaskControlWithCause 的门控一致\n// (done/failed/timeout 为终态);paused 才可继续。行内按钮与批量控制共用此判断,\n// 两边不会出现一个可点、另一个不可点的分歧。\nconst PAUSABLE_STATUSES = new Set",
+  "n": 1
+ },
+ {
+  "zh": "ordered.slice((page - 1) * pageSize, page * pageSize),\n    [ordered, page, pageSize],\n  );\n\n  // 多选删除:选择跨翻页/筛选保留,只在任务真的消失(被删或后端不再返回)时收敛。\n  const [selectedIds, setSelectedIds] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n// 三态图标分开写而非嵌套三元:仓库 Biome 基线禁 noNestedTernary。\nfunction taskControlIcon(pending: boolean, action: \"pause\" | \"resume\" | null)",
+  "n": 1
+ },
+ {
+  "zh": ");\n\nconst deleteOptionKeys: (keyof DeleteTaskOptions)[] = [\n  \"delete_assets\",\n  \"delete_traffic\",\n  \"delete_files\",\n  \"delete_findings\",\n  \"delete_llm_records\",\n];\n\n// DeleteOptionFields renders the「同时清理关联数据」checkbox block shared by the\n// single-task and bulk delete dialogs. idPrefix keeps the label/input ids unique when\n// several dialogs live in the same table.\nfunction DeleteOptionFields(",
+  "n": 1
+ },
+ {
+  "zh": "([]);\n  const [creating, setCreating] = React.useState(false);\n  const [timeoutMin, setTimeoutMin] = React.useState(\"\"); // 任务级超时(分钟);空/0 = 不限时\n  const [heartbeatMin, setHeartbeatMin] = React.useState(\"10\"); // planner 心跳(分钟);默认10,下限10(与后端一致)\n  const [seedFirstIntent, setSeedFirstIntent] = React.useState(false); // 创建时下发种子意图,worker 免等首轮 planner 直接开跑;默认关闭,走标准先规划再执行\n  const [coverageEnabled, setCoverageEnabled] = React.useState(true); // 资产覆盖度功能;默认开。关闭=不计算/展示覆盖度、不累积范围、隐藏范围类工具(company 关联不受影响)\n  const [interceptRules, setInterceptRules] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "([]); // 任务级资产拦截规则(仅本任务生效,不进全局表)\n  // 方式1 文件上传:建任务前把文件暂存到 drafts/",
+  "n": 1
+ },
+ {
+  "zh": "/uploads/,拿回绝对路径追加进描述。\n  const [uploading, setUploading] = React.useState(false);\n  const [uploadCount, setUploadCount] = React.useState(0);\n  const draftIdRef = React.useRef",
+  "n": 1
+ },
+ {
+  "zh": ");\n\n// 前端轻校验（与后端一致：仅 exact_ip / cidr 做格式校验，其余交后端）。\nfunction frontValidate(form: RuleForm): string | null",
+  "n": 1
+ },
+ {
+  "zh": "= 1000) return (n / 1000).toFixed(1) + \"k\";\n  return String(n);\n}\n\n// JudgeStat 是一块统计数字(标签 + 数值)。\nfunction JudgeStat(",
+  "n": 1
+ },
+ {
+  "zh": "(defaultForm());\n  const [saving, setSaving]   = React.useState(false);\n  const [regexErr, setRegexErr] = React.useState(\"\");\n  const [regexWarn, setRegexWarn] = React.useState(false); // true = JS 无法解析但可能是合法 Go 语法\n\n  // ---- tool scope dialog ----\n  const [scopeOpen, setScopeOpen]       = React.useState(false);\n  const [allTools, setAllTools]         = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "0 = 改用这个固定毫秒间隔\n\nimport * as React from \"react\";\n\nimport",
+  "n": 1
+ },
+ {
+  "zh": ";\n\ntype LayerKey = keyof typeof RETRY_LAYERS;\n\n/** 毫秒的人话，只用于在输入框旁边回显，免得数零。 */\nfunction humanMs(ms: number)",
+  "n": 1
+ },
+ {
+  "zh": "void;\n  /** true = 配置抽屉里的紧凑版：省掉展开说明，只留「什么错误会走到这层」这一句 */\n  compact?: boolean;\n})",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n/** 「重试与退避」tab：五层的全局默认值。 */\nexport function RetryPolicyPanel()",
+  "n": 1
+ },
+ {
+  "zh": ",\n];\n// 输出上限用哪个请求字段名（仅 openai 格式有意义）。NONE ↔ \"\" 走同一套哨兵转换。\nconst MAX_TOKENS_FIELDS:",
+  "n": 1
+ },
+ {
+  "zh": ",\n];\n// 另外两种格式各自定死了字段名，选项对它们无意义，说明文案里直接讲清楚。\nconst MAX_TOKENS_FIELD_HINTS: Record",
+  "n": 1
+ },
+ {
+  "zh": "(\"anthropic\");\n  const [model, setModel] = React.useState(\"\");\n  const [baseUrl, setBaseUrl] = React.useState(\"\");\n  const [proxy, setProxy] = React.useState(\"\");\n  const [apiKey, setApiKey] = React.useState(\"\");\n  const [keyHint, setKeyHint] = React.useState(\"\");\n  const [rps, setRps] = React.useState(\"0\");\n  const [rpm, setRpm] = React.useState(\"0\");\n  const [cw, setCw] = React.useState(\"0\"); // 上下文窗口(K tokens);0=默认200K\n  const [thinkingType, setThinkingType] = React.useState(NONE);\n  const [effort, setEffort] = React.useState(NONE);\n  const [priority, setPriority] = React.useState(\"0\"); // 轮询顺位;越大越先\n  const [poolExclude, setPoolExclude] = React.useState(false);\n  const [streaming, setStreaming] = React.useState(true); // true=流式(默认);false=非流式\n  const [maxTokens, setMaxTokens] = React.useState(\"0\"); // 单次回复输出上限;0=不发送\n  const [maxTokensField, setMaxTokensField] = React.useState(NONE); // 上限用哪个字段名;NONE=max_tokens\n  const [sessionHeaderKey, setSessionHeaderKey] = React.useState(\"\"); // 自定义会话头名;空=不发送\n  const [retry, setRetry] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "(ZERO_OVERRIDE); // 本配置的重试覆盖;全 0=跟随全局\n  const [testing, setTesting] = React.useState(false);\n  const [saving, setSaving] = React.useState(false);\n  const [models, setModels] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "，在 Sheet 的滚动锁之外，\n                  不加 modal 时列表能渲染却滚不动。modal 让它自己持有最上层滚动锁。 */}",
+  "n": 1
+ },
+ {
+  "zh": "(null);\n  const [poolOpen, setPoolOpen] = React.useState(false);\n  // 抽屉的开关和内容分开存：关闭时 editing 保持不变，否则关闭动画期间标题会从\n  // 「编辑 X」闪成「新建」。editing = null 表示新建。\n  const [editOpen, setEditOpen] = React.useState(false);\n  const [editing, setEditing] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n// 各渠道的配置字段定义。\n//\n// 这里刻意保留一份前端字段表，而不是让后端下发 schema：后端只负责\n// Validate（必填/格式），UI 需要的是布局与控件类型，两者关注的不是同一件事。\n// 唯一的耦合点是 secret_keys —— 哪些字段该渲染成密码框由后端给出，\n// 因为只有渠道实现自己清楚哪些值算凭据（企业微信的整个 Webhook 就是凭据，\n// 而钉钉的只是其中一个 secret）。新增渠道时这里少一个条目只会让表单变空白，\n// 不会静默出错（下面的 hasFields 会提示）。\nexport type FieldKind = \"text\" | \"password\" | \"number\" | \"select\" | \"textarea\" | \"switch\" | \"kv\" | \"list\";\nexport interface FieldDef",
+  "n": 1
+ },
+ {
+  "zh": ");\n\n// parseKV 解析「每行 KEY=VALUE」的文本域。\nexport function parseKV(text: string): Record",
+  "n": 1
+ },
+ {
+  "zh": ");\n  }\n\n  // 控件按字段类型分派。用 if 链而不是嵌套三元，是因为这里要区分四种控件，\n  // 三层三元读起来已经要停下来数括号了。\n  function control()",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n// formatBacklog 把积压毫秒数渲染成人看得懂的量级。\nexport function formatBacklog(ms: number): string",
+  "n": 1
+ },
+ {
+  "zh": "// buildConfig 把表单状态转成渠道 config。\n  //\n  // 唯一的规则，两类值：\n  //   - 掩码值（\"__masked__...\"）原样送回 → 后端解读为「这个字段没改，保留库中原值」\n  //   - 其余一律按用户输入提交，空串即「清空该字段」\n  //\n  // 之所以不特殊照顾凭据字段（比如「凭据留空就跳过」），是因为那会让用户**无法清除**\n  // 一个设错的密钥——界面上没有任何操作能表达「我要把它删掉」。现在的规则下，\n  // 清空输入框就等于清空该字段，语义唯一且用户可控。\n  // 掩码值不会出现在输入框里（见 ConfigField），所以「框里有字」永远等于\n  // 「用户主动填的」。\n  function buildConfig(): Record",
+  "n": 1
+ },
+ {
+  "zh": ");\n  };\n\n  const phase = progress?.phase;\n  const showProgress = busy || restarting;\n  // 只有下载阶段拿得到真实百分比（按 Content-Length 算）。校验/解压/等待重启都是\n  // 时长不可知的阶段，进度条填满并加个脉冲动画表示\"작업 중이지만 남은 시간은 불확실\"。\n  const downloading = !restarting && phase === \"downloading\";\n  const pct = downloading ? Math.max(progress?.percent ?? 0, 0) : 100;\n\n  return (\n    // 设置页是多列瀑布流布局，卡片自己负责行间距并禁止跨列断开（见 page.tsx 的注释）。",
+  "n": 1
+ },
+ {
+  "zh": "(null);\n  const [deleting, setDeleting] = React.useState(false);\n\n  // 调用统计：列表页的次数/最近调用随 api.skills() 一起回来；选中某个 skill 时再拉它的\n  // 最近调用明细。missing = 被点名但不存在的 skill（想用但没有）。\n  const [usageCalls, setUsageCalls] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "([]);\n  const [preview, setPreview] = React.useState(\"\");\n  const [maxTurns, setMaxTurns] = React.useState(\"0\");\n  const [runSecs, setRunSecs] = React.useState(\"600\");\n  // \"\" = 跟随(未绑定)；否则为 profile id 字符串\n  const [llmProfileId, setLlmProfileId] = React.useState(\"\");\n  const [llmProfiles, setLlmProfiles] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "([]);\n  const [webSearch, setWebSearch] = React.useState(false);\n  const [interactiveShell, setInteractiveShell] = React.useState(false);\n  const [wrapup, setWrapup] = React.useState(\"\");\n  const [wrapupDefault, setWrapupDefault] = React.useState(\"\");\n  const [wrapupTurns, setWrapupTurns] = React.useState(\"0\");\n  const [wrapupTurnsDefault, setWrapupTurnsDefault] = React.useState(5);\n  // 任务级超时收尾词(仅 worker/planner)\n  const [ttSupported, setTtSupported] = React.useState(false);\n  const [ttWrapup, setTtWrapup] = React.useState(\"\");\n  const [ttWrapupDefault, setTtWrapupDefault] = React.useState(\"\");\n  const [ttTurns, setTtTurns] = React.useState(\"0\");\n  const [ttTurnsDefault, setTtTurnsDefault] = React.useState(5);\n  const [settings, setSettings] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": ";\n  }\n  // config is meaningless for the conversational main agent and the fixed-budget\n  // goals decomposer; every other agent (workers, custom assistants) honors it.\n  const showConfig = agentKey !== \"mainagent\" && agentKey !== \"goals\";\n  // web search applies to every conversational/executing agent except the one-shot\n  // goals decomposer; it's gated by the global master switch.\n  const showWebSearch = agentKey !== \"goals\";\n  // interactive shell (持久 PTY 会话工具族) 同样对除 goals 外的 agent 开放;无全局门控。\n  const showInteractiveShell = agentKey !== \"goals\";\n  // 每个 agent(含 goals/mainagent)都跑在某个 LLM 上,故「默认模型」绑定对所有 agent 开放。\n  const showLLM = true;\n  // triggers (P3) only attach to custom agents.\n  const isCustom = !!detail && !detail.agent?.builtin;\n\n  return (",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n// AgentTriggersTab manages a custom agent's P3 triggers: list + add + delete.\n// Each trigger fires (定时/发现finding/目标达成/任务超时/工具调用，可多选) → a new conversation runs\n// in parallel with the base user message + auto context appended by the backend.\nfunction AgentTriggersTab(",
+  "n": 1
+ },
+ {
+  "zh": "([]);\n  // 触发后处理策略(每 agent);初值来自 agent detail,改动即保存。\n  const [runMode, setRunMode] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "([]);\n  const [saving, setSaving] = React.useState(false);\n  // null = 新增模式；非 null = 正在编辑该 id 的触发器。\n  const [editingId, setEditingId] = React.useState",
+  "n": 1
+ },
+ {
+  "zh": "o.value === r.kind)?.placeholder ?? \"\";\n        return (\n          // biome-ignore lint/suspicious/noArrayIndexKey: 行无稳定 id，按索引受控即可",
+  "n": 1
+ },
+ {
+  "zh": "[\"variant\"];\n  className?: string;\n};\n\n// CopyButton 统一的「复制到剪贴板」按钮:内置成功/失败反馈,并在 HTTP 非安全上下文\n// 下自动降级(见 copyText)。\nexport function CopyButton(",
+  "n": 1
+ },
+ {
+  "zh": ");\n}\n\n// ExplorationGraph is the shared探索图/攻击链路图 canvas — used by the task graph\n// tab (full graph, polled) and the finding lineage view (origin→finding subgraph).\nexport function ExplorationGraph(",
+  "n": 1
+ },
+ {
+  "zh": "void;\n}\n\n// 仅在打开时挂载，关闭后清空说明；列表与详情共用提交锁及错误处理，启动后留在当前页。\nexport function FindingRetestDialog(",
+  "n": 1
+ },
+ {
+  "zh": "` : \"\");\n\n// findingFilterParams 把发现页的筛选条件序列化成 query string。列表 / 分组 /\n// 资产树 / 导出共用同一份,新增筛选项只改这里(后端也只解析这一份)。\nfunction findingFilterParams(q: Omit",
+  "n": 1
+ },
+ {
+  "zh": "`);\n  },\n  // findingAssetTree 取「按资产」视图的左侧树:只含有发现的资产及其祖先,\n  // 节点带子树聚合计数。不分页——树是导航结构,一次取完。\n  findingAssetTree: (q: Omit",
+  "n": 1
+ },
+ {
+  "zh": "(\"/exploration/findings/stats\"),\n  // exportFindings 触发发现页导出并下载文件。scope=selected 时传 ids(finding_id 列表);\n  // scope=filtered 时传当前筛选(沿用 FindingQuery 的筛选字段);scope=all 忽略筛选。\n  exportFindings: async (opts:",
+  "n": 1
+ },
+ {
+  "zh": "(`/notify/channels`, payload),\n  // PATCH 语义：只提交要改的字段。config 里的掩码值原样回传即表示「保持原值」。\n  notifyUpdateChannel: (\n    id: number,\n    payload:",
+  "n": 1
+ },
+ {
+  "zh": "// reply = 模型实际回复(已截断);一个字都不回的配置后端直接判失败\n    post",
+  "n": 1
+ },
+ {
+  "zh": "),\n  // custom tools (自定义工具)\n  createCustomTool: (\n    t: Pick",
+  "n": 1
+ },
+ {
+  "zh": "(\"/skills\", s),\n  // uploadSkill installs a skill from a .zip (multipart). Surfaces the backend\n  // error text (e.g. 已存在 / 缺少 SKILL.md) so the UI can show a precise message.\n  uploadSkill: async (file: File, overwrite = false): Promise",
+  "n": 1
+ },
+ {
+  "zh": ")),\n\n  // ---- intercept tool-config (全局工具拦截范围) ----\n  interceptGetToolConfig: async (): Promise",
+  "n": 1
+ },
+ {
+  "zh": ";\n\n// 推送投递状态。sending 用 blue 而不是 amber：它不是「有问题」，\n// 而是「已被领取、正在发」，与 pending 的等待语义要能区分开。\nconst delivery: Record",
+  "n": 1
+ },
+ {
+  "zh": "// ---- Asset coverage graph (per task) ----\n// 力导向「资产覆盖图」的一个节点。key 唯一：资产=\"a:",
+  "n": 1
+ },
+ {
+  "zh": "\"、\n// 无资产行的根域名=\"r:",
+  "n": 1
+ },
+ {
+  "zh": "// 某资产在本任务探索图里关联到的意图/事实/发现（覆盖图节点抽屉用）。\nexport interface CoverageAssetRef",
+  "n": 1
+ },
+ {
+  "zh": "// 任务测试范围的一条（覆盖度分母 + 授权边界）。\nexport interface TaskScopeRow",
+  "n": 1
+ },
+ {
+  "zh": "export type CompanyScopeKind = \"domain\" | \"ip\" | \"cidr\" | \"icp\" | \"keyword\";\n\n// 新增企业时提交的结构化资产范围规则。\nexport interface CompanyScopeRule",
+  "n": 1
+ },
+ {
+  "zh": "// 资产范围写入的结果。errors 是本次提交里不合法的行；warnings 是与本次提交无关、\n// 但会让归属结果不符合预期的既有数据问题（如 ip 字段存了主机名的资产）。\nexport interface CompanyScopeMutation",
+  "n": 1
+ },
+ {
+  "zh": "// 公司资产范围规则的一条（归属唯一真值来源）。\nexport interface ScopeRow",
+  "n": 1
+ },
+ {
+  "zh": "// 企业：type=company 的资产节点 + 图标 + 资产计数 + 资产范围规则。\nexport interface Company",
+  "n": 1
+ },
+ {
+  "zh": "// 播报板一页:按创建顺序分页的节点 + 这一页涉及的边 + 边另一端的节点(refs,按 id 索引),\n// 这样每条播报都能说清「从哪来、产出了什么」,而不用把整张图拉下来。\nexport interface ExplorationNodePage",
+  "n": 1
+ },
+ {
+  "zh": ";\n  // 节点 id → 该节点锚定的资产(播报板展开时顺带展示,含本页节点与其邻居)。\n  assets: Record",
+  "n": 1
+ },
+ {
+  "zh": "// 目标管理卡片用的目标(后端已把 payload 拆成 text/vulnclass)。\nexport interface TaskGoal",
+  "n": 1
+ },
+ {
+  "zh": "// 约束管理卡片用的操作约束(allow=允许 / deny=禁止)。\nexport type ConstraintKind = \"allow\" | \"deny\";\nexport interface TaskConstraint",
+  "n": 1
+ },
+ {
+  "zh": "// ---- Findings ----\nexport type Severity = \"critical\" | \"high\" | \"medium\" | \"low\";\n\n// 漏洞处置状态:待处理 / 处理中 / 已确认 / 已处理 / 已修复 / 误报 / 忽略 / 重复 / 风险接受。\nexport type FindingStatus =\n  | \"pending\"\n  | \"in_progress\"\n  | \"confirmed\"\n  | \"resolved\"\n  | \"fixed\"\n  | \"false_positive\"\n  | \"ignored\"\n  | \"duplicate\"\n  | \"risk_accepted\";\n\n// FindingAsset 是一个漏洞绑定的资产(已在后端预渲染 label)。\nexport interface FindingAsset",
+  "n": 1
+ },
+ {
+  "zh": "// FindingsPage 是发现列表的服务端分页响应。\nexport interface FindingsPage",
+  "n": 1
+ },
+ {
+  "zh": "// FindingStats 是发现全表聚合(统计卡 + 漏洞类型下拉),服务端计算,不受分页影响。\nexport interface FindingStats",
+  "n": 1
+ },
+ {
+  "zh": "// FindingTaskOption 是发现页「按任务」筛选下拉的一项:有漏洞的任务(描述为空表示任务已删除,\n// 前端回退展示 id)及其漏洞条数。\nexport interface FindingTaskOption",
+  "n": 1
+ },
+ {
+  "zh": "// FindingQuery 是发现列表分页/筛选/排序参数。\nexport interface FindingQuery",
+  "n": 1
+ },
+ {
+  "zh": "// ---- Findings by asset (资产视图) ----\nexport type FindingAssetKind = \"company\" | \"root_domain\" | \"subdomain\" | \"ip\" | \"service\" | \"app\" | \"endpoint\" | \"none\";\n\n// FindingAssetNode 是资产树的一个节点。key 形如 a:",
+  "n": 1
+ },
+ {
+  "zh": "(企业)、\n// r:",
+  "n": 1
+ },
+ {
+  "zh": "// FINDING_UNASSIGNED_ASSET 与后端 db.FindingUnassignedAsset 对应。\nexport const FINDING_UNASSIGNED_ASSET = \"__none__\";\n\n// ---- Activity / sessions ----\nexport type ActivityKind =\n  | \"tool_use\"\n  | \"tool_result\"\n  | \"text\"\n  | \"thinking\"\n  | \"result\"\n  | \"user\"\n  | \"intent\" // LLM-generated exploration objective leading a worker session (UI-synthesized)\n  | \"round\" // planner round boundary marker (engine-emitted)\n  | \"usage\" // live cumulative token usage (per model turn); not rendered\n  | \"llm_switch\" // automatic/manual task-level LLM switch\n  | \"llm_failover\" // task-level provider switch / chain exhaustion audit event\n  | \"intercept_request\"; // user-approval request from the intercept layer\n\n// ChatAttachment 是一次上传的文件:path 相对该会话/任务工作目录(即 agent 的 CWD)。\nexport interface ChatAttachment",
+  "n": 1
+ },
+ {
+  "zh": "// ---- Agent triggers (P3 调度，仅自定义 agent) ----\nexport interface AgentTrigger",
+  "n": 1
+ },
+ {
+  "zh": "// 批量改分类的逐任务结果。失败只可能是任务已被删除，分类本身的写入是原子的。\nexport interface BatchCategoryItem",
+  "n": 1
+ },
+ {
+  "zh": "// ---- 漏洞 IM 推送 ----\n\n// NotificationFilter 是渠道的过滤条件，字段全部可选，缺省即不过滤。\n// 后端对所有字段都不加校验：配置畸形时按「命中」处理（宁可多推不可漏推）。\nexport interface NotificationFilter",
+  "n": 1
+ },
+ {
+  "zh": "// NotificationChannel 是一个渠道实例。config 的字段随 kind 而异，\n// 且凭据字段在读取时被替换成 \"__masked__\" 开头的掩码值——原样回传即表示「不改」。\nexport interface NotificationChannel",
+  "n": 1
+ },
+ {
+  "zh": "// 单个 LLM 配置能覆盖的三层（都是「跟着端点走」的重试）。\nexport interface LLMRetryOverride",
+  "n": 1
+ },
+ {
+  "zh": "// 全局策略 = 上面三层的默认值 + 两层只有全局的：\n//   breaker 轮询熔断（attempts=连续几次瞬时失败熔断，interval_ms=固定冷却时长）\n//   intent  意图重跑（worker 以 model_error 收场后整条意图重跑）\nexport interface LLMRetryPolicy extends LLMRetryOverride",
+  "n": 1
+ },
+ {
+  "zh": "// ---- LLM 轮询（故障转移）----\n// 一个配置在轮询链中的位置与健康状态。state:\n//   ok       正常\n//   degraded 有连续失败但未达熔断阈值\n//   tripped  已熔断，冷却期内被跳过（cooldown_secs 为剩余秒数）\nexport interface LLMPoolMember",
+  "n": 1
+ },
+ {
+  "zh": "// SkillCall 是一次 Skill() 调用（单个 skill 的最近调用列表）。\nexport interface SkillCall",
+  "n": 1
+ },
+ {
+  "zh": "// MissingSkill 是被点名但不存在的 skill —— \"쓰려 했지만 없음\"的缺口。\nexport interface MissingSkill",
+  "n": 1
+ },
+ {
+  "zh": "// ---- Tools (内置工具目录) ----\n// key + handler live in Go; only these fields are page-editable. system tools lock\n// the key and the parameter *structure* (name/type/required) — the per-param\n// description/default and the agent binding are what move.\nexport interface Tool",
+  "n": 1
+ },
+ {
+  "zh": "; // full JSON-Schema (object with properties)\n  agents: string[]; // bound agent keys\n  enabled: boolean;\n  kind?: \"builtin\" | \"shell\" | \"command\" | \"script\" | \"http\"; // 自定义工具类型\n  // eslint-disable-next-line @typescript-eslint/no-explicit-any\n  exec?: Record",
+  "n": 1
+ },
+ {
+  "zh": "; // 自定义工具执行规格(kind!=builtin)\n  deferred?: boolean; // schema 延迟(SearchExtraTools/ExecuteExtraTool)\n  calls?: number; // persistent runtime invocation count (older APIs may omit it)\n}\n\n// ---- Stats ----\nexport interface Stats",
+  "n": 1
+ },
+ {
+  "zh": "// ---- Asset Intercept Rules（资产拦截：全局黑名单） ----\nexport type AssetInterceptKind =\n  | \"exact_domain\"\n  | \"exact_ip\"\n  | \"exact_url\"\n  | \"fuzzy_domain\"\n  | \"fuzzy_ip\"\n  | \"fuzzy_url\"\n  | \"cidr\";\n\n// action 仅用于任务级规则：block=拦截(禁止测试) allow=允许(白名单)。\nexport type AssetInterceptAction = \"block\" | \"allow\";\n\n// 任务级资产拦截/允许规则的录入项（创建任务、任务详情编辑使用）。\nexport interface AssetInterceptRuleInput",
+  "n": 1
+ },
+ {
+  "zh": ";\n  status: \"pending\" | \"allowed\" | \"denied\" | \"timeout\";\n  reason: string; // 规则 message 或模型判定理由(模型判定带 [模型] 前缀)\n  decided_at?: string;\n  created_at: string;\n}\n\n// JudgeConfig: 模型兜底审批(仅当没有任何拦截规则命中时由模型判断)的全局配置。\nexport interface JudgeConfig",
+  "n": 1
+ },
+ {
+  "zh": "// JudgeUsage: 模型兜底审批(judge 通道)的累计 token 用量 + 近 N 天每日序列。\nexport interface JudgeDayUsage",
+  "n": 1
+ },
+ {
+  "zh": "// ── 资产同步 (ScopeSentry 数据源) ──────────────────────────────────────────────\nexport interface SSProject",
+  "n": 1
+ },
+ {
+  "zh": "// 单个工具的调用统计（/commands/stats）；errors 为其中失败的次数。\nexport interface ToolStat",
+  "n": 1
+ },
+ {
+  "zh": ",\n    true, // capture:抢在 Radix 冒泡阶段的 pointerdown 处理器之前记录\n  );\n}\n\n// radixOverlayWasOpenAtPointerDown 返回\"最近一次 pointerdown 发生时是否有 Radix 弹层\n// 开着\"。抽屉/对话框据此:开着弹层时点遮罩 → 只收弹层、不关自身。\nexport function radixOverlayWasOpenAtPointerDown(): boolean",
+  "n": 1
+ },
+ {
+  "zh": "// copyText 把文本写入剪贴板,返回是否成功。\n// 背景:navigator.clipboard 仅在安全上下文(HTTPS / localhost)可用;通过 IP + HTTP\n// 访问时它为 undefined,此时降级到 execCommand(\"copy\")。\nexport async function copyText(text: string): Promise",
+  "n": 1
+ }
+]
