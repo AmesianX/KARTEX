@@ -54,13 +54,13 @@ export function UpdateCard() {
       .then((r) => {
         setInfo(r);
         if (!quiet) {
-          if (r.error) toast.error("检查更新失败：" + r.error);
-          else if (r.has_update) toast.success(`发现新版本 ${r.latest}`);
-          else if (r.comparable) toast.success("当前已是最新版本");
+          if (r.error) toast.error("업데이트 확인 실패: " + r.error);
+          else if (r.has_update) toast.success(`새 버전 ${r.latest}을(를) 발견했습니다`);
+          else if (r.comparable) toast.success("이미 최신 버전입니다");
         }
       })
       .catch((e) => {
-        if (!quiet) toast.error("检查更新失败：" + (e as Error).message);
+        if (!quiet) toast.error("업데이트 확인 실패: " + (e as Error).message);
       })
       .finally(() => setChecking(false));
   }, []);
@@ -71,7 +71,7 @@ export function UpdateCard() {
 
   // 轮询 /api/health 直到版本号变化。
   //
-  // 判据必须是"版本变了"而不是"能连上了"：换装过程中旧版本会短暂地重新起来一次
+  // 判据必须是"버전이 바뀌었습니다"而不是"연결되었습니다"：换装过程中旧版本会短暂地重新起来一次
   // （那一次只负责把 artex.new 换上去然后立刻退出），只看连通性会误判成功。
   const waitForNewVersion = React.useCallback(async (fromVersion: string) => {
     setRestarting(true);
@@ -83,7 +83,7 @@ export function UpdateCard() {
         if (r.ok) {
           const j = (await r.json()) as { version?: string };
           if (j.version && j.version !== fromVersion) {
-            toast.success(`已更新到 ${j.version}，正在重新加载页面`);
+            toast.success(`${j.version}로 업데이트했습니다. 페이지를 다시 불러오는 중입니다`);
             await sleep(800);
             window.location.reload();
             return;
@@ -94,7 +94,7 @@ export function UpdateCard() {
       }
     }
     setRestarting(false);
-    toast.error("等待服务重启超时。请检查后端日志，或确认 artex 是通过 start.sh / start.bat 启动的。");
+    toast.error("서비스 재시작 대기가 시간을 초과했습니다. 백엔드 로그를 확인하거나, artex 가 start.sh / start.bat 으로 실행되었는지 확인하세요.");
   }, []);
 
   // 订阅更新进度。SSE 不走 Next 的 /api 重写（那层会缓冲，事件推不出来）。
@@ -112,7 +112,7 @@ export function UpdateCard() {
         if (p.phase === "failed") {
           es.close();
           setBusy(false);
-          toast.error("更新失败：" + (p.error || p.message));
+          toast.error("업데이트 실패: " + (p.error || p.message));
           return;
         }
         if (p.phase === "staged") {
@@ -134,23 +134,23 @@ export function UpdateCard() {
     if (!info) return;
     const from = info.current;
     const ok = window.confirm(
-      `确定更新到 ${info.latest}？\n\n` +
-        "更新会重启程序，正在运行的任务会被中断。\n" +
+      `${info.latest}로 업데이트할까요?\n\n` +
+        "업데이트는 프로그램을 재시작하며 실행 중인 작업이 중단됩니다.\n" +
         (info.mode === "docker"
-          ? "\n注意：容器内更新只替换程序本身，不会更新镜像里的 playwright / nmap 等工具链；" +
-            "若新版本依赖新工具，请改用 docker compose pull。"
+          ? "\n주의: 컨테이너 내 업데이트는 프로그램 자체만 교체하며, 이미지의 playwright / nmap 등 툴체인은 업데이트하지 않습니다." +
+            "새 버전이 새 도구를 필요로 한다면 docker compose pull 을 사용하세요."
           : ""),
     );
     if (!ok) return;
 
     setBusy(true);
-    setProgress({ phase: "downloading", percent: 0, message: "准备中…" });
+    setProgress({ phase: "downloading", percent: 0, message: "준비 중…" });
     const es = openStream(from);
     api.applyUpdate().catch((e) => {
       es.close();
       setBusy(false);
       setProgress(null);
-      toast.error("启动更新失败：" + (e as Error).message);
+      toast.error("업데이트 시작 실패: " + (e as Error).message);
     });
   };
 
@@ -158,7 +158,7 @@ export function UpdateCard() {
     if (!info) return;
     if (
       !window.confirm(
-        "回滚到上一版本？\n\n程序会重启，正在运行的任务会被中断。\n注意：数据库结构不会回退，旧版本可能无法识别新版写入的数据。",
+        "이전 버전으로 롤백할까요?\n\n프로그램이 재시작되고 실행 중인 작업이 중단됩니다.\n주의: 데이터베이스 구조는 되돌아가지 않으므로, 구버전이 신버전이 쓴 데이터를 인식하지 못할 수 있습니다.",
       )
     )
       return;
@@ -167,19 +167,19 @@ export function UpdateCard() {
     api
       .rollbackUpdate()
       .then(() => {
-        toast.success("已切换到上一版本，正在重启…");
+        toast.success("이전 버전으로 전환했습니다. 재시작 중…");
         void waitForNewVersion(from);
       })
       .catch((e) => {
         setBusy(false);
-        toast.error("回滚失败：" + (e as Error).message);
+        toast.error("롤백 실패: " + (e as Error).message);
       });
   };
 
   const phase = progress?.phase;
   const showProgress = busy || restarting;
   // 只有下载阶段拿得到真实百分比（按 Content-Length 算）。校验/解压/等待重启都是
-  // 时长不可知的阶段，进度条填满并加个脉冲动画表示"在忙但说不准还要多久"。
+  // 时长不可知的阶段，进度条填满并加个脉冲动画表示"작업 중이지만 남은 시간은 불확실"。
   const downloading = !restarting && phase === "downloading";
   const pct = downloading ? Math.max(progress?.percent ?? 0, 0) : 100;
 
@@ -189,13 +189,13 @@ export function UpdateCard() {
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-base">
           <DownloadIcon className="size-4" />
-          版本与更新
+          버전과 업데이트
         </CardTitle>
-        <CardDescription>从 GitHub 检查并安装新版本。更新会重启程序，正在运行的任务会被中断。</CardDescription>
+        <CardDescription>GitHub에서 새 버전을 확인하고 설치합니다. 업데이트는 프로그램을 재시작하며 실행 중인 작업이 중단됩니다.</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="flex flex-wrap items-center gap-2 text-sm">
-          <span className="text-muted-foreground">当前版本</span>
+          <span className="text-muted-foreground">현재 버전</span>
           <Badge variant="secondary" className="font-mono">
             {info?.current ?? "…"}
           </Badge>
@@ -204,12 +204,12 @@ export function UpdateCard() {
               <Badge variant="outline" className="font-mono">
                 {info.os}/{info.arch}
               </Badge>
-              <Badge variant="outline">{info.mode === "docker" ? "Docker" : "独立程序"}</Badge>
+              <Badge variant="outline">{info.mode === "docker" ? "Docker" : "독립 실행 파일"}</Badge>
             </>
           )}
           {info?.latest && (
             <>
-              <span className="text-muted-foreground">最新版本</span>
+              <span className="text-muted-foreground">최신 버전</span>
               <Badge variant={info.has_update ? "default" : "secondary"} className="font-mono">
                 {info.latest}
               </Badge>
@@ -222,7 +222,7 @@ export function UpdateCard() {
               rel="noreferrer"
               className="inline-flex items-center gap-1 text-xs text-muted-foreground underline-offset-4 hover:underline"
             >
-              更新日志 <ExternalLinkIcon className="size-3" />
+              변경 로그 <ExternalLinkIcon className="size-3" />
             </a>
           )}
         </div>
@@ -237,8 +237,8 @@ export function UpdateCard() {
         {info?.error && (
           <p className="flex items-start gap-2 rounded-md border border-destructive/40 bg-destructive/10 p-2 text-xs text-destructive">
             <TriangleAlertIcon className="mt-0.5 size-3.5 shrink-0" />
-            无法连接 GitHub：{info.error}
-            {"　"}可在上方配置全局代理后重试。
+            GitHub 에 연결할 수 없습니다: {info.error}
+            {"　"}위에서 전역 프록시를 설정한 뒤 다시 시도할 수 있습니다.
           </p>
         )}
 
@@ -247,29 +247,29 @@ export function UpdateCard() {
         {info?.has_update && info.asset_available === false && (
           <p className="flex items-start gap-2 rounded-md border border-destructive/40 bg-destructive/10 p-2 text-xs text-destructive">
             <TriangleAlertIcon className="mt-0.5 size-3.5 shrink-0" />
-            {info.latest} 没有提供 {info.os}/{info.arch} 的发布包（缺少 {info.asset}），无法自动更新。
+            {info.latest} 다음에 대한 {info.os}/{info.arch} 배포 패키지가 없습니다( {info.asset} 누락). 자동 업데이트할 수 없습니다.
           </p>
         )}
 
         {info?.has_update && info.asset_available !== false && (
           <p className="text-xs text-muted-foreground">
-            将下载 <span className="font-mono">{info.asset}</span>
-            {info.size ? `（${humanSize(info.size)}）` : ""}，校验 SHA256 并冒烟测试后才会替换，失败自动保留当前版本。
+            다음을 다운로드하고 <span className="font-mono">{info.asset}</span>
+            {info.size ? `（${humanSize(info.size)}）` : ""}, SHA256 을 검증하고 스모크 테스트를 통과한 뒤에야 교체합니다. 실패하면 현재 버전을 자동으로 유지합니다.
           </p>
         )}
 
         {info && !info.has_update && info.comparable && !info.error && (
           <p className="flex items-center gap-2 text-xs text-muted-foreground">
             <CheckCircle2Icon className="size-3.5 text-emerald-600" />
-            当前已是最新版本。
+            이미 최신 버전입니다.
           </p>
         )}
 
         {info?.mode === "docker" && info.has_update && (
           <p className="text-xs text-muted-foreground">
-            Docker 下的更新只替换程序本身，不更新镜像里的 playwright / nmap 等工具链，且
+            Docker 에서의 업데이트는 프로그램 자체만 교체하며 이미지의 playwright / nmap 등 툴체인은 업데이트하지 않습니다. 또한
             <span className="font-mono"> docker compose up -d </span>
-            重建容器后会退回镜像自带的版本。需要连镜像一起升级请执行
+            컨테이너를 재생성하면 이미지에 포함된 버전으로 되돌아갑니다. 이미지까지 함께 업그레이드하려면 다음을 실행하세요
             <span className="font-mono"> docker compose pull artex &amp;&amp; docker compose up -d artex</span>。
           </p>
         )}
@@ -278,7 +278,7 @@ export function UpdateCard() {
           <div className="space-y-1.5">
             <Progress value={pct} className={downloading ? undefined : "animate-pulse"} />
             <p className="text-xs text-muted-foreground">
-              {restarting ? "正在重启并应用新版本，请稍候（页面会自动刷新）…" : progress?.message}
+              {restarting ? "재시작하여 새 버전을 적용하는 중입니다. 잠시 기다려 주세요(페이지가 자동으로 새로고침됩니다)…" : progress?.message}
             </p>
           </div>
         )}
@@ -286,7 +286,7 @@ export function UpdateCard() {
         <div className="flex flex-wrap gap-2">
           <Button variant="outline" size="sm" onClick={() => check(false)} disabled={checking || busy || restarting}>
             <RefreshCwIcon className={checking ? "size-4 animate-spin" : "size-4"} />
-            检查更新
+            업데이트 확인
           </Button>
           <Button
             size="sm"
@@ -294,19 +294,19 @@ export function UpdateCard() {
             disabled={busy || restarting || !info?.has_update || info?.asset_available === false}
           >
             <DownloadIcon className="size-4" />
-            {info?.has_update ? `更新到 ${info.latest}` : "立即更新"}
+            {info?.has_update ? `${info.latest}로 업데이트` : "지금 업데이트"}
           </Button>
           {info?.has_backup && (
             <Button variant="ghost" size="sm" onClick={doRollback} disabled={busy || restarting}>
               <RotateCcwIcon className="size-4" />
-              回滚到上一版本
+              이전 버전으로 롤백
             </Button>
           )}
         </div>
 
         <p className="text-xs text-muted-foreground">
-          一键更新依赖守护脚本重启程序。请通过 <span className="font-mono">start.sh</span>（Windows 为
-          <span className="font-mono"> start.bat</span>）启动 ARTEX；直接运行 artex 本体时，程序退出后不会被自动拉起。
+          원클릭 업데이트는 감시 스크립트가 프로그램을 재시작하는 데 의존합니다. 다음으로 <span className="font-mono">start.sh</span>(Windows 는
+          <span className="font-mono"> start.bat</span>) ARTEX 를 실행하세요. artex 본체를 직접 실행하면 프로그램이 종료된 뒤 자동으로 다시 올라오지 않습니다.
         </p>
       </CardContent>
     </Card>

@@ -138,7 +138,7 @@ export function useSideQuestions(parent: string | null) {
         restoreFailedDraft([item]);
         if (item.status !== "running") stream.close();
       } catch {
-        setError("旁路数据解析失败，请重新打开面板");
+        setError("사이드 데이터 파싱 실패, 패널을 다시 열어 주세요");
       }
     });
     stream.addEventListener("cleared", () => {

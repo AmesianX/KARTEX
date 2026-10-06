@@ -14,7 +14,7 @@ export function cn(...inputs: ClassValue[]) {
 // 天然不可靠(实测已验证)。
 //
 // 正确做法:Radix 的 pointerdown 监听在冒泡阶段;我们在 capture 阶段(早于它)先把
-// "此刻有没有弹层开着"记录下来,onInteractOutside 再读这个记录值来决定是否放行关闭。
+// "지금 팝업이 열려 있는지"记录下来,onInteractOutside 再读这个记录值来决定是否放行关闭。
 function isRadixOverlayOpenNow(): boolean {
   if (typeof document === "undefined") return false;
   return !!document.querySelector(

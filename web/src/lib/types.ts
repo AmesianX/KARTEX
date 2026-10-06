@@ -1158,7 +1158,7 @@ export interface AgentDetail {
   wrapup_prompt?: string; // 已保存的收尾提示词(空=用内置默认)
   wrapup_default?: string; // 内置默认收尾提示词(占位/恢复默认)
   wrapup_max_turns?: number; // 已保存的收尾轮数(0=用内置默认)
-  wrapup_max_turns_default?: number; // 内置默认收尾轮数(供 "0=默认N" 提示)
+  wrapup_max_turns_default?: number; // 内置默认收尾轮数(供 "0=기본 N" 提示)
   // 任务级超时收尾词(仅 worker/planner，task_timeout_wrapup_supported=true 时才显示该分区)
   task_timeout_wrapup_supported?: boolean;
   task_timeout_wrapup_prompt?: string;
@@ -1212,7 +1212,7 @@ export interface SkillCall {
   args_len: number;
 }
 
-// MissingSkill 是被点名但不存在的 skill —— "想用但没有"的缺口。
+// MissingSkill 是被点名但不存在的 skill —— "쓰려 했지만 없음"的缺口。
 export interface MissingSkill {
   skill: string;
   calls: number;
